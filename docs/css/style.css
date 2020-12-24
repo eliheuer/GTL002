@@ -1,0 +1,18 @@
+@font-face {
+    font-family: 'GTL002';
+    src: url('../../fonts/ttf/GTL002.ttf');
+}
+body {
+    font-family:GTL002;
+    background-color:#000;
+    color:#ddd;
+    scrollbar-width: none;
+}
+p {
+    font-size:8em;
+    line-height:0.1;
+    margin-bottom:-0.3em;
+}
+.top {
+    margin-top:0.3em;
+}
