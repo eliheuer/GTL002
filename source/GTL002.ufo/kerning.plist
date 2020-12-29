@@ -9,17 +9,32 @@
 		<key>T</key>
 		<real>-100</real>
 	</dict>
+	<key>B</key>
+	<dict>
+		<key>C</key>
+		<real>-20</real>
+	</dict>
+	<key>F</key>
+	<dict>
+		<key>G</key>
+		<real>-40</real>
+	</dict>
+	<key>P</key>
+	<dict>
+		<key>Q</key>
+		<real>-20</real>
+	</dict>
 	<key>R</key>
 	<dict>
 		<key>S</key>
-		<real>-40</real>
+		<real>-20</real>
 	</dict>
 	<key>S</key>
 	<dict>
 		<key>A</key>
 		<real>-60</real>
 		<key>T</key>
-		<real>-60</real>
+		<real>-40</real>
 		<key>Y</key>
 		<real>-100</real>
 	</dict>
@@ -30,10 +45,20 @@
 		<key>O</key>
 		<real>-100</real>
 	</dict>
+	<key>Y</key>
+	<dict>
+		<key>Z</key>
+		<real>-10</real>
+	</dict>
+	<key>nine</key>
+	<dict>
+		<key>zero</key>
+		<real>-30</real>
+	</dict>
 	<key>eight</key>
 	<dict>
 		<key>nine</key>
-		<real>-90</real>
+		<real>-110</real>
 	</dict>
 	<key>seven</key>
 	<dict>
@@ -44,6 +69,21 @@
 	<dict>
 		<key>seven</key>
 		<real>-120</real>
+	</dict>
+	<key>five</key>
+	<dict>
+		<key>one</key>
+		<real>-70</real>
+	</dict>
+	<key>three</key>
+	<dict>
+		<key>four</key>
+		<real>-90</real>
+	</dict>
+	<key>ampersand</key>
+	<dict>
+		<key>exclam</key>
+		<real>-30</real>
 	</dict>
 </dict>
 </plist>
