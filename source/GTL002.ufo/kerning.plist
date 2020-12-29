@@ -1,20 +1,49 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
-  <dict>
-    <key>W</key>
-    <dict>
-      <key>A</key>
-      <integer>-190</integer>
-      <key>O</key>
-      <integer>-100</integer>
-    </dict>
+<dict>
     <key>A</key>
     <dict>
-      <key>C</key>
-      <integer>-60</integer>
-      <key>T</key>
-      <integer>-100</integer>
+        <key>C</key>
+        <real>-60</real>
+        <key>T</key>
+        <real>-100</real>
     </dict>
-  </dict>
+    <key>R</key>
+    <dict>
+        <key>S</key>
+        <real>-40</real>
+    </dict>
+    <key>S</key>
+    <dict>
+        <key>A</key>
+        <real>-60</real>
+        <key>T</key>
+        <real>-60</real>
+        <key>Y</key>
+        <real>-100</real>
+    </dict>
+    <key>W</key>
+    <dict>
+        <key>A</key>
+        <real>-190</real>
+        <key>O</key>
+        <real>-100</real>
+    </dict>
+    <key>six</key>
+    <dict>
+        <key>seven</key>
+        <real>-50</real>
+    </dict>
+    <key>seven</key>
+    <dict>
+        <key>eight</key>
+        <real>-100</real>
+    </dict>
+    <key>eight</key>
+    <dict>
+        <key>nine</key>
+        <real>-50</real>
+    </dict>
+</dict>
 </plist>
