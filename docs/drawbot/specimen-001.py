@@ -7,7 +7,7 @@ W,H,M,F = 1024,512,64,64
 
 # DRAWS A GRID
 def grid():
-    stroke(0.2)
+    stroke(1,0,0,0.5)
     strokeWidth(1)
     rect(M, M, W-(M*2), H-(M*2))
     stpX, stpY = 0, 0
@@ -42,9 +42,30 @@ font("fonts/ttf/GTL002.ttf")
 #grid() # Toggle for grid view
 fill(1)
 stroke(None)
-fontSize(M*2.7)
-text("ABCDEFGHI", (M*1, M*5))
-text("JKLMNOPQ", (M*1, M*3))
-text("RSTUVWXYZ", (M*1, M*1))
+fontSize(M*1.3)
+text("ABCDEFGHIJKLMNO", (M*2.5, M*5))
+text("PQRSTUVWXYZ 1234", (M*2.5, M*4))
+text("567890-–—&!?$£ (.,;:)", (M*2.5, M*3))
+text("3D-RENDER 512 GTL", (M*2.5, M*2))
+
+stroke(1)
+strokeWidth(2)
+line((M*2.5, H-M), (W-(M*2.5), H-M))
+line((M*2.5, M), (W-(M*2.5), M))
+font("Helvetica")
+fontSize(24)
+stroke(None)
+
+text("GTL002 ALPHA", (M*2.5, H-(M*1.5)))
+
+text("4.", (W-M*3.25, H-(M*1.5)))
+text("1K", (W-M*3, H-(M*1.5)))
+
+text("APACHE 2.0", (W-M*4.65, (M*1.15)))
+
+text("HTTPS:", (M*2.5, (M*1.15)))
+text("//GTL.", (M*3.86, (M*1.15)))
+text("WORLD", (M*4.86, (M*1.15)))
+
 saveImage("docs/drawbot/specimen-001.gif")
 print("Drawbot: Done :-)")

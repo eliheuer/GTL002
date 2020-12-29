@@ -50,15 +50,25 @@
 		<key>Z</key>
 		<real>-10</real>
 	</dict>
-	<key>nine</key>
+	<key>ampersand</key>
 	<dict>
-		<key>zero</key>
+		<key>exclam</key>
 		<real>-30</real>
 	</dict>
 	<key>eight</key>
 	<dict>
 		<key>nine</key>
 		<real>-110</real>
+	</dict>
+	<key>five</key>
+	<dict>
+		<key>one</key>
+		<real>-70</real>
+	</dict>
+	<key>nine</key>
+	<dict>
+		<key>zero</key>
+		<real>-30</real>
 	</dict>
 	<key>seven</key>
 	<dict>
@@ -70,20 +80,10 @@
 		<key>seven</key>
 		<real>-120</real>
 	</dict>
-	<key>five</key>
-	<dict>
-		<key>one</key>
-		<real>-70</real>
-	</dict>
 	<key>three</key>
 	<dict>
 		<key>four</key>
 		<real>-90</real>
-	</dict>
-	<key>ampersand</key>
-	<dict>
-		<key>exclam</key>
-		<real>-30</real>
 	</dict>
 </dict>
 </plist>
