@@ -2,7 +2,11 @@
 
 ![Sample Image](documentation/Alpha-NFT.png)
 
-# Google Fonts QA
+## About
+
+GTL002: Typeface 2 from GTL Type Label. Designed and engineered by Eli Heuer.
+
+# QA
 
 [![][Fontbakery]](https://eliheuer.github.io/GTL002/fontbakery/fontbakery-report.html)
 [![][Universal]](https://eliheuer.github.io/GTL002/fontbakery/fontbakery-report.html)
@@ -15,10 +19,6 @@
 [Outline Correctness]: https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Feliheuer%2FGTL002%2Fgh-pages%2Fbadges%2FOutlineCorrectnessChecks.json
 [Shaping]: https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Feliheuer%2FGTL002%2Fgh-pages%2Fbadges%2FShapingChecks.json
 [Universal]: https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Feliheuer%2FGTL002%2Fgh-pages%2Fbadges%2FUniversal.json
-
-## About
-
-GTL002: Typeface 2 from GTL Type Label
 
 ## Building
 
@@ -51,4 +51,4 @@ The OFL meets the specific needs of typographic design and engineering as well a
 
 ## Repository Layout
 
-This font repository structure is inspired by [Unified Font Repository v0.3](https://github.com/unified-font-repository/Unified-Font-Repository), modified for the Google Fonts workflow.
+This Git repository uses and conforms to the standars of the [Google Fonts Project Template](https://github.com/googlefonts/googlefonts-project-template).
