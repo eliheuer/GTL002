@@ -2,7 +2,7 @@
 
 Fontbakery version: 0.8.10
 
-<details><summary><b>[16] GTL001-Regular.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking OS/2 fsType does not impose restrictions. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/fstype">com.google.fonts/check/fstype</a>)</summary><div>
+<details><summary><b>[15] GTL001-Regular.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking OS/2 fsType does not impose restrictions. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/fstype">com.google.fonts/check/fstype</a>)</summary><div>
 
 
 * 🔥 **FAIL** In this font fsType is set to 8 meaning that:
@@ -838,11 +838,6 @@ No such DRM restrictions can be enabled on the Google Fonts collection, so the f
 
 
 * 🔥 **FAIL** Whitespace glyph missing for codepoint 0x00A0. [code: missing-whitespace-glyph-0x00A0]
-</div></details><details><summary>⚠ <b>WARN:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
-
-
-* ⚠ **WARN** OS/2 VendorID value 'NONE' is not yet recognized. If you registered it recently, then it's safe to ignore this warning message. Otherwise, you should set it to your own unique 4 character code, and register it with Microsoft at https://www.microsoft.com/typography/links/vendorlist.aspx
- [code: unknown]
 </div></details><details><summary>⚠ <b>WARN:</b> Ensure fonts have ScriptLangTags declared on the 'meta' table. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/meta/script_lang_tags">com.google.fonts/check/meta/script_lang_tags</a>)</summary><div>
 
 
@@ -893,7 +888,7 @@ The following glyphs do not have the recommended number of contours:
 
 	* H (U+0048): X=58.0,Y=-1.0 (should be at baseline 0?)
 
-	* I (U+0049): X=58.0,Y=-1.0 (should be at baseline 0?)
+	* I (U+0049): X=60.0,Y=-1.0 (should be at baseline 0?)
 
 	* J (U+004A): X=54.0,Y=-1.0 (should be at baseline 0?)
 
@@ -923,7 +918,7 @@ The following glyphs do not have the recommended number of contours:
 
 	* h (U+0068): X=58.0,Y=-1.0 (should be at baseline 0?)
 
-	* i (U+0069): X=58.0,Y=-1.0 (should be at baseline 0?)
+	* i (U+0069): X=60.0,Y=-1.0 (should be at baseline 0?)
 
 	* j (U+006A): X=54.0,Y=-1.0 (should be at baseline 0?)
 
@@ -987,8 +982,8 @@ The following glyphs do not have the recommended number of contours:
 
 | 💔 ERROR | 🔥 FAIL | ⚠ WARN | 💤 SKIP | ℹ INFO | 🍞 PASS | 🔎 DEBUG |
 |:-----:|:----:|:----:|:----:|:----:|:----:|:----:|
-| 0 | 10 | 6 | 117 | 7 | 87 | 0 |
-| 0% | 4% | 3% | 52% | 3% | 38% | 0% |
+| 0 | 10 | 5 | 117 | 7 | 88 | 0 |
+| 0% | 4% | 2% | 52% | 3% | 39% | 0% |
 
 **Note:** The following loglevels were omitted in this report:
 * **SKIP**
