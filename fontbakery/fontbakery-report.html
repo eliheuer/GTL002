@@ -94,14 +94,14 @@
 <h3>Checking OS/2 fsType does not impose restrictions.</h3>
 <div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/fstype&gt;</div>
 
-<details><summary>🔥 <strong>fonts/ttf/GTL001-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>In this font fsType is set to 8 meaning that:
+<details><summary>🔥 <strong>fonts/ttf/GTL002-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>In this font fsType is set to 8 meaning that:
 The font may be embedded but must only be installed temporarily on other systems.</p>
 <p>No such DRM restrictions can be enabled on the Google Fonts collection, so the fsType field must be set to zero (Installable Embedding) instead. [code: drm]</p>
 </span></li></ul></div></details>
 <h3>Check Google Fonts glyph coverage.</h3>
 <div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/glyph_coverage&gt;</div>
 
-<details><summary>🔥 <strong>fonts/ttf/GTL001-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>Missing required codepoints:</p>
+<details><summary>🔥 <strong>fonts/ttf/GTL002-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>Missing required codepoints:</p>
 <pre><code>- 0x0030 (DIGIT ZERO)
 
 
@@ -892,59 +892,59 @@ The font may be embedded but must only be installed temporarily on other systems
 <h3>Check copyright namerecords match license file.</h3>
 <div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/name/license&gt;</div>
 
-<details><summary>🔥 <strong>fonts/ttf/GTL001-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>Font lacks NameID 13 (LICENSE DESCRIPTION). A proper licensing entry must be set. [code: missing]</p>
+<details><summary>🔥 <strong>fonts/ttf/GTL002-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>Font lacks NameID 13 (LICENSE DESCRIPTION). A proper licensing entry must be set. [code: missing]</p>
 </span></li></ul></div></details>
 <h3>Version format is correct in 'name' table?</h3>
 <div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/name/version_format&gt;</div>
 
-<details><summary>🔥 <strong>fonts/ttf/GTL001-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>The NameID.VERSION_STRING (nameID=5) value must follow the pattern &quot;Version X.Y&quot; with X.Y greater than or equal to 1.000. Current version string is: &quot;Version 0.100; ttfautohint (v1.8.4.7-5d5b)&quot; [code: bad-version-strings]</p>
+<details><summary>🔥 <strong>fonts/ttf/GTL002-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>The NameID.VERSION_STRING (nameID=5) value must follow the pattern &quot;Version X.Y&quot; with X.Y greater than or equal to 1.000. Current version string is: &quot;Version 0.100; ttfautohint (v1.8.4.7-5d5b)&quot; [code: bad-version-strings]</p>
 </span></li></ul></div></details>
 <h3>Check font names are correct</h3>
 <div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/font_names&gt;</div>
 
-<details><summary>🔥 <strong>fonts/ttf/GTL001-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>Font names are incorrect:</p>
+<details><summary>🔥 <strong>fonts/ttf/GTL002-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>Font names are incorrect:</p>
 <p>| nameID | current | expected |
 | :--- | :--- | :--- |
-| Family Name | GTL001 | GTL001 |
+| Family Name | GTL002 | GTL002 |
 | Subfamily Name | Regular | Regular |
-| Full Name | GTL001 Regular | GTL001 Regular |
-| Poscript Name | PrintShoppe-Regular | GTL001-Regular | [code: bad-names]</p>
+| Full Name | GTL002 Regular | GTL002 Regular |
+| Poscript Name | PrintShoppe-Regular | GTL002-Regular | [code: bad-names]</p>
 </span></li></ul></div></details>
 <h3>Check font follows the Google Fonts vertical metric schema</h3>
 <div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/vertical_metrics&gt;</div>
 
-<details><summary>🔥 <strong>fonts/ttf/GTL001-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>OS/2.sTypoLineGap is &quot;235&quot; it should be 0 [code: bad-OS/2.sTypoLineGap]</p>
+<details><summary>🔥 <strong>fonts/ttf/GTL002-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>OS/2.sTypoLineGap is &quot;235&quot; it should be 0 [code: bad-OS/2.sTypoLineGap]</p>
 </span></li></ul></div></details>
 <h3>OS/2.fsSelection bit 7 (USE_TYPO_METRICS) is set in all fonts.</h3>
 <div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/os2/use_typo_metrics&gt;</div>
 
-<details><summary>🔥 <strong>fonts/ttf/GTL001-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>OS/2.fsSelection bit 7 (USE_TYPO_METRICS) wasNOT set in the following fonts: ['fonts/ttf/GTL001-Regular.ttf']. [code: missing-os2-fsselection-bit7]</p>
+<details><summary>🔥 <strong>fonts/ttf/GTL002-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>OS/2.fsSelection bit 7 (USE_TYPO_METRICS) wasNOT set in the following fonts: ['fonts/ttf/GTL002-Regular.ttf']. [code: missing-os2-fsselection-bit7]</p>
 </span></li></ul></div></details>
 <h3>Ensure fonts have ScriptLangTags declared on the 'meta' table.</h3>
 <div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/meta/script_lang_tags&gt;</div>
 
-<details><summary>⚠️ <strong>fonts/ttf/GTL001-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>This font file does not have a 'meta' table. [code: lacks-meta-table]</p>
+<details><summary>⚠️ <strong>fonts/ttf/GTL002-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>This font file does not have a 'meta' table. [code: lacks-meta-table]</p>
 </span></li></ul></div></details>
 <h3>Check font can render its own name.</h3>
 <div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/render_own_name&gt;</div>
 
-<details><summary>🔥 <strong>fonts/ttf/GTL001-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>.notdef glyphs were found when attempting to render GTL001 [code: render-own-name]</p>
+<details><summary>🔥 <strong>fonts/ttf/GTL002-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>.notdef glyphs were found when attempting to render GTL002 [code: render-own-name]</p>
 </span></li></ul></div></details>
 <h2>&lt;Section: Universal&gt; 🔥🔥⚠️⏩⏩⏩⏩⏩⏩⏩ℹ️ℹ️</h2>
 <h3>Checking OS/2 Metrics match hhea Metrics.</h3>
 <div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/os2_metrics_match_hhea&gt;</div>
 
-<details><summary>🔥 <strong>fonts/ttf/GTL001-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>OS/2 sTypoAscender (740) and hhea ascent (975) must be equal. [code: ascender]</p>
+<details><summary>🔥 <strong>fonts/ttf/GTL002-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>OS/2 sTypoAscender (740) and hhea ascent (975) must be equal. [code: ascender]</p>
 </span></li></ul></div></details>
 <h3>Font contains glyphs for whitespace characters?</h3>
 <div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/whitespace_glyphs&gt;</div>
 
-<details><summary>🔥 <strong>fonts/ttf/GTL001-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>Whitespace glyph missing for codepoint 0x00A0. [code: missing-whitespace-glyph-0x00A0]</p>
+<details><summary>🔥 <strong>fonts/ttf/GTL002-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>Whitespace glyph missing for codepoint 0x00A0. [code: missing-whitespace-glyph-0x00A0]</p>
 </span></li></ul></div></details>
 <h3>Check if each glyph has the recommended amount of contours.</h3>
 <div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/contour_count&gt;</div>
 
-<details><summary>⚠️ <strong>fonts/ttf/GTL001-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>This check inspects the glyph outlines and detects the total number of contours in each of them. The expected values are infered from the typical ammounts of contours observed in a large collection of reference font families. The divergences listed below may simply indicate a significantly different design on some of your glyphs. On the other hand, some of these may flag actual bugs in the font such as glyphs mapped to an incorrect codepoint. Please consider reviewing the design and codepoint assignment of these to make sure they are correct.</p>
+<details><summary>⚠️ <strong>fonts/ttf/GTL002-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>This check inspects the glyph outlines and detects the total number of contours in each of them. The expected values are infered from the typical ammounts of contours observed in a large collection of reference font families. The divergences listed below may simply indicate a significantly different design on some of your glyphs. On the other hand, some of these may flag actual bugs in the font such as glyphs mapped to an incorrect codepoint. Please consider reviewing the design and codepoint assignment of these to make sure they are correct.</p>
 <p>The following glyphs do not have the recommended number of contours:</p>
 <pre><code>- Glyph name: b	Contours detected: 3	Expected: 2
 
@@ -976,28 +976,40 @@ The font may be embedded but must only be installed temporarily on other systems
 <h3>Checking Vertical Metric Linegaps.</h3>
 <div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/linegaps&gt;</div>
 
-<details><summary>⚠️ <strong>fonts/ttf/GTL001-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>OS/2 sTypoLineGap is not equal to 0. [code: OS/2]</p>
+<details><summary>⚠️ <strong>fonts/ttf/GTL002-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>OS/2 sTypoLineGap is not equal to 0. [code: OS/2]</p>
 </span></li></ul></div></details>
 <h2>&lt;Section: Outline Correctness Checks&gt; ⚠️⚠️</h2>
 <h3>Are there any misaligned on-curve points?</h3>
 <div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/outline_alignment_miss&gt;</div>
 
-<details><summary>⚠️ <strong>fonts/ttf/GTL001-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have on-curve points which have potentially incorrect y coordinates:</p>
-<pre><code>* A (U+0041): X=480.0,Y=-1.0 (should be at baseline 0?)
+<details><summary>⚠️ <strong>fonts/ttf/GTL002-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have on-curve points which have potentially incorrect y coordinates:</p>
+<pre><code>* C (U+0043): X=159.5,Y=0.5 (should be at baseline 0?)
 
-* G (U+0047): X=294.0,Y=-1.5 (should be at baseline 0?)
+* C (U+0043): X=159.0,Y=699.5 (should be at cap-height 700?)
 
-* H (U+0048): X=58.0,Y=-1.0 (should be at baseline 0?)
+* C (U+0043): X=311.5,Y=699.5 (should be at cap-height 700?)
 
-* I (U+0049): X=60.0,Y=-1.0 (should be at baseline 0?)
+* C (U+0043): X=311.5,Y=0.5 (should be at baseline 0?)
 
-* J (U+004A): X=54.0,Y=-1.0 (should be at baseline 0?)
+* G (U+0047): X=151.0,Y=0.5 (should be at baseline 0?)
+
+* G (U+0047): X=159.0,Y=699.5 (should be at cap-height 700?)
+
+* G (U+0047): X=311.5,Y=699.5 (should be at cap-height 700?)
+
+* H (U+0048): X=60.0,Y=-1.0 (should be at baseline 0?)
 
 * K (U+004B): X=58.0,Y=-1.0 (should be at baseline 0?)
 
-* K (U+004B): X=348.0,Y=-1.0 (should be at baseline 0?)
-
 * M (U+004D): X=58.0,Y=-1.0 (should be at baseline 0?)
+
+* O (U+004F): X=164.0,Y=0.5 (should be at baseline 0?)
+
+* O (U+004F): X=164.0,Y=699.5 (should be at cap-height 700?)
+
+* O (U+004F): X=316.5,Y=699.5 (should be at cap-height 700?)
+
+* O (U+004F): X=316.5,Y=0.5 (should be at baseline 0?)
 
 * S (U+0053): X=325.5,Y=701.5 (should be at cap-height 700?)
 
@@ -1009,25 +1021,37 @@ The font may be embedded but must only be installed temporarily on other systems
 
 * Y (U+0059): X=190.0,Y=-1.0 (should be at baseline 0?)
 
-* a (U+0061): X=480.0,Y=-1.0 (should be at baseline 0?)
+* a (U+0061): X=286.0,Y=531.0 (should be at x-height 530?)
 
-* e (U+0065): X=183.0,Y=531.0 (should be at x-height 530?)
+* b (U+0062): X=200.0,Y=529.0 (should be at x-height 530?)
 
-* f (U+0066): X=183.0,Y=531.0 (should be at x-height 530?)
+* c (U+0063): X=159.5,Y=0.5 (should be at baseline 0?)
 
-* g (U+0067): X=294.0,Y=-1.5 (should be at baseline 0?)
+* c (U+0063): X=159.0,Y=699.5 (should be at cap-height 700?)
 
-* h (U+0068): X=58.0,Y=-1.0 (should be at baseline 0?)
+* c (U+0063): X=311.5,Y=699.5 (should be at cap-height 700?)
 
-* i (U+0069): X=60.0,Y=-1.0 (should be at baseline 0?)
+* c (U+0063): X=311.5,Y=0.5 (should be at baseline 0?)
 
-* j (U+006A): X=54.0,Y=-1.0 (should be at baseline 0?)
+* g (U+0067): X=151.0,Y=0.5 (should be at baseline 0?)
+
+* g (U+0067): X=159.0,Y=699.5 (should be at cap-height 700?)
+
+* g (U+0067): X=311.5,Y=699.5 (should be at cap-height 700?)
+
+* h (U+0068): X=60.0,Y=-1.0 (should be at baseline 0?)
 
 * k (U+006B): X=58.0,Y=-1.0 (should be at baseline 0?)
 
-* k (U+006B): X=348.0,Y=-1.0 (should be at baseline 0?)
-
 * m (U+006D): X=58.0,Y=-1.0 (should be at baseline 0?)
+
+* o (U+006F): X=164.0,Y=0.5 (should be at baseline 0?)
+
+* o (U+006F): X=164.0,Y=699.5 (should be at cap-height 700?)
+
+* o (U+006F): X=316.5,Y=699.5 (should be at cap-height 700?)
+
+* o (U+006F): X=316.5,Y=0.5 (should be at baseline 0?)
 
 * s (U+0073): X=325.5,Y=701.5 (should be at cap-height 700?)
 
@@ -1039,44 +1063,16 @@ The font may be embedded but must only be installed temporarily on other systems
 
 * x (U+0078): X=160.0,Y=-1.0 (should be at baseline 0?)
 
-* y (U+0079): X=190.0,Y=-1.0 (should be at baseline 0?)
+* y (U+0079): X=190.0,Y=-1.0 (should be at baseline 0?) 
 
-* z (U+007A): X=214.0,Y=532.0 (should be at x-height 530?)
-
-* Agrave (U+00C0): X=480.0,Y=-1.0 (should be at baseline 0?)
-
-* Aacute (U+00C1): X=480.0,Y=-1.0 (should be at baseline 0?)
-
-* Acircumflex (U+00C2): X=480.0,Y=-1.0 (should be at baseline 0?)
-
-* Atilde (U+00C3): X=480.0,Y=-1.0 (should be at baseline 0?)
-
-* Adieresis (U+00C4): X=480.0,Y=-1.0 (should be at baseline 0?) 
-
-* And Aring (U+00C5): X=480.0,Y=-1.0 (should be at baseline 0?) [code: found-misalignments]
+* And z (U+007A): X=214.0,Y=532.0 (should be at x-height 530?) [code: found-misalignments]
 </code></pre>
 </span></li></ul></div></details>
 <h3>Do outlines contain any semi-vertical or semi-horizontal lines?</h3>
 <div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/outline_semi_vertical&gt;</div>
 
-<details><summary>⚠️ <strong>fonts/ttf/GTL001-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have semi-vertical/semi-horizontal lines:</p>
-<pre><code>* A (U+0041): L&lt;&lt;480.0,-1.0&gt;--&lt;363.0,0.0&gt;&gt;
-
-* Aacute (U+00C1): L&lt;&lt;480.0,-1.0&gt;--&lt;363.0,0.0&gt;&gt;
-
-* Acircumflex (U+00C2): L&lt;&lt;480.0,-1.0&gt;--&lt;363.0,0.0&gt;&gt;
-
-* Adieresis (U+00C4): L&lt;&lt;480.0,-1.0&gt;--&lt;363.0,0.0&gt;&gt;
-
-* Agrave (U+00C0): L&lt;&lt;480.0,-1.0&gt;--&lt;363.0,0.0&gt;&gt;
-
-* Aring (U+00C5): L&lt;&lt;480.0,-1.0&gt;--&lt;363.0,0.0&gt;&gt;
-
-* Atilde (U+00C3): L&lt;&lt;480.0,-1.0&gt;--&lt;363.0,0.0&gt;&gt;
-
-* X (U+0058): L&lt;&lt;455.0,0.0&gt;--&lt;332.0,-1.0&gt;&gt;
-
-* a (U+0061): L&lt;&lt;480.0,-1.0&gt;--&lt;363.0,0.0&gt;&gt; 
+<details><summary>⚠️ <strong>fonts/ttf/GTL002-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have semi-vertical/semi-horizontal lines:</p>
+<pre><code>* X (U+0058): L&lt;&lt;455.0,0.0&gt;--&lt;332.0,-1.0&gt;&gt; 
 
 * And x (U+0078): L&lt;&lt;455.0,0.0&gt;--&lt;332.0,-1.0&gt;&gt; [code: found-semi-vertical]
 </code></pre>

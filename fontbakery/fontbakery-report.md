@@ -2,7 +2,7 @@
 
 Fontbakery version: 0.8.10
 
-<details><summary><b>[15] GTL001-Regular.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking OS/2 fsType does not impose restrictions. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/fstype">com.google.fonts/check/fstype</a>)</summary><div>
+<details><summary><b>[15] GTL002-Regular.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking OS/2 fsType does not impose restrictions. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/fstype">com.google.fonts/check/fstype</a>)</summary><div>
 
 
 * 🔥 **FAIL** In this font fsType is set to 8 meaning that:
@@ -814,10 +814,10 @@ No such DRM restrictions can be enabled on the Google Fonts collection, so the f
 
 | nameID | current | expected |
 | :--- | :--- | :--- |
-| Family Name | GTL001 | GTL001 |
+| Family Name | GTL002 | GTL002 |
 | Subfamily Name | Regular | Regular |
-| Full Name | GTL001 Regular | GTL001 Regular |
-| Poscript Name | PrintShoppe-Regular | GTL001-Regular | [code: bad-names]
+| Full Name | GTL002 Regular | GTL002 Regular |
+| Poscript Name | PrintShoppe-Regular | GTL002-Regular | [code: bad-names]
 </div></details><details><summary>🔥 <b>FAIL:</b> Check font follows the Google Fonts vertical metric schema (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vertical_metrics">com.google.fonts/check/vertical_metrics</a>)</summary><div>
 
 
@@ -825,11 +825,11 @@ No such DRM restrictions can be enabled on the Google Fonts collection, so the f
 </div></details><details><summary>🔥 <b>FAIL:</b> OS/2.fsSelection bit 7 (USE_TYPO_METRICS) is set in all fonts. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/os2/use_typo_metrics">com.google.fonts/check/os2/use_typo_metrics</a>)</summary><div>
 
 
-* 🔥 **FAIL** OS/2.fsSelection bit 7 (USE_TYPO_METRICS) wasNOT set in the following fonts: ['fonts/ttf/GTL001-Regular.ttf']. [code: missing-os2-fsselection-bit7]
+* 🔥 **FAIL** OS/2.fsSelection bit 7 (USE_TYPO_METRICS) wasNOT set in the following fonts: ['fonts/ttf/GTL002-Regular.ttf']. [code: missing-os2-fsselection-bit7]
 </div></details><details><summary>🔥 <b>FAIL:</b> Check font can render its own name. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/render_own_name">com.google.fonts/check/render_own_name</a>)</summary><div>
 
 
-* 🔥 **FAIL** .notdef glyphs were found when attempting to render GTL001 [code: render-own-name]
+* 🔥 **FAIL** .notdef glyphs were found when attempting to render GTL002 [code: render-own-name]
 </div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 Metrics match hhea Metrics. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/os2_metrics_match_hhea">com.google.fonts/check/os2_metrics_match_hhea</a>)</summary><div>
 
 
@@ -882,21 +882,33 @@ The following glyphs do not have the recommended number of contours:
 
 * ⚠ **WARN** The following glyphs have on-curve points which have potentially incorrect y coordinates:
 
-	* A (U+0041): X=480.0,Y=-1.0 (should be at baseline 0?)
+	* C (U+0043): X=159.5,Y=0.5 (should be at baseline 0?)
 
-	* G (U+0047): X=294.0,Y=-1.5 (should be at baseline 0?)
+	* C (U+0043): X=159.0,Y=699.5 (should be at cap-height 700?)
 
-	* H (U+0048): X=58.0,Y=-1.0 (should be at baseline 0?)
+	* C (U+0043): X=311.5,Y=699.5 (should be at cap-height 700?)
 
-	* I (U+0049): X=60.0,Y=-1.0 (should be at baseline 0?)
+	* C (U+0043): X=311.5,Y=0.5 (should be at baseline 0?)
 
-	* J (U+004A): X=54.0,Y=-1.0 (should be at baseline 0?)
+	* G (U+0047): X=151.0,Y=0.5 (should be at baseline 0?)
+
+	* G (U+0047): X=159.0,Y=699.5 (should be at cap-height 700?)
+
+	* G (U+0047): X=311.5,Y=699.5 (should be at cap-height 700?)
+
+	* H (U+0048): X=60.0,Y=-1.0 (should be at baseline 0?)
 
 	* K (U+004B): X=58.0,Y=-1.0 (should be at baseline 0?)
 
-	* K (U+004B): X=348.0,Y=-1.0 (should be at baseline 0?)
-
 	* M (U+004D): X=58.0,Y=-1.0 (should be at baseline 0?)
+
+	* O (U+004F): X=164.0,Y=0.5 (should be at baseline 0?)
+
+	* O (U+004F): X=164.0,Y=699.5 (should be at cap-height 700?)
+
+	* O (U+004F): X=316.5,Y=699.5 (should be at cap-height 700?)
+
+	* O (U+004F): X=316.5,Y=0.5 (should be at baseline 0?)
 
 	* S (U+0053): X=325.5,Y=701.5 (should be at cap-height 700?)
 
@@ -908,25 +920,37 @@ The following glyphs do not have the recommended number of contours:
 
 	* Y (U+0059): X=190.0,Y=-1.0 (should be at baseline 0?)
 
-	* a (U+0061): X=480.0,Y=-1.0 (should be at baseline 0?)
+	* a (U+0061): X=286.0,Y=531.0 (should be at x-height 530?)
 
-	* e (U+0065): X=183.0,Y=531.0 (should be at x-height 530?)
+	* b (U+0062): X=200.0,Y=529.0 (should be at x-height 530?)
 
-	* f (U+0066): X=183.0,Y=531.0 (should be at x-height 530?)
+	* c (U+0063): X=159.5,Y=0.5 (should be at baseline 0?)
 
-	* g (U+0067): X=294.0,Y=-1.5 (should be at baseline 0?)
+	* c (U+0063): X=159.0,Y=699.5 (should be at cap-height 700?)
 
-	* h (U+0068): X=58.0,Y=-1.0 (should be at baseline 0?)
+	* c (U+0063): X=311.5,Y=699.5 (should be at cap-height 700?)
 
-	* i (U+0069): X=60.0,Y=-1.0 (should be at baseline 0?)
+	* c (U+0063): X=311.5,Y=0.5 (should be at baseline 0?)
 
-	* j (U+006A): X=54.0,Y=-1.0 (should be at baseline 0?)
+	* g (U+0067): X=151.0,Y=0.5 (should be at baseline 0?)
+
+	* g (U+0067): X=159.0,Y=699.5 (should be at cap-height 700?)
+
+	* g (U+0067): X=311.5,Y=699.5 (should be at cap-height 700?)
+
+	* h (U+0068): X=60.0,Y=-1.0 (should be at baseline 0?)
 
 	* k (U+006B): X=58.0,Y=-1.0 (should be at baseline 0?)
 
-	* k (U+006B): X=348.0,Y=-1.0 (should be at baseline 0?)
-
 	* m (U+006D): X=58.0,Y=-1.0 (should be at baseline 0?)
+
+	* o (U+006F): X=164.0,Y=0.5 (should be at baseline 0?)
+
+	* o (U+006F): X=164.0,Y=699.5 (should be at cap-height 700?)
+
+	* o (U+006F): X=316.5,Y=699.5 (should be at cap-height 700?)
+
+	* o (U+006F): X=316.5,Y=0.5 (should be at baseline 0?)
 
 	* s (U+0073): X=325.5,Y=701.5 (should be at cap-height 700?)
 
@@ -938,43 +962,15 @@ The following glyphs do not have the recommended number of contours:
 
 	* x (U+0078): X=160.0,Y=-1.0 (should be at baseline 0?)
 
-	* y (U+0079): X=190.0,Y=-1.0 (should be at baseline 0?)
+	* y (U+0079): X=190.0,Y=-1.0 (should be at baseline 0?) 
 
-	* z (U+007A): X=214.0,Y=532.0 (should be at x-height 530?)
-
-	* Agrave (U+00C0): X=480.0,Y=-1.0 (should be at baseline 0?)
-
-	* Aacute (U+00C1): X=480.0,Y=-1.0 (should be at baseline 0?)
-
-	* Acircumflex (U+00C2): X=480.0,Y=-1.0 (should be at baseline 0?)
-
-	* Atilde (U+00C3): X=480.0,Y=-1.0 (should be at baseline 0?)
-
-	* Adieresis (U+00C4): X=480.0,Y=-1.0 (should be at baseline 0?) 
-
-	* And Aring (U+00C5): X=480.0,Y=-1.0 (should be at baseline 0?) [code: found-misalignments]
+	* And z (U+007A): X=214.0,Y=532.0 (should be at x-height 530?) [code: found-misalignments]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any semi-vertical or semi-horizontal lines? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_semi_vertical">com.google.fonts/check/outline_semi_vertical</a>)</summary><div>
 
 
 * ⚠ **WARN** The following glyphs have semi-vertical/semi-horizontal lines:
 
-	* A (U+0041): L<<480.0,-1.0>--<363.0,0.0>>
-
-	* Aacute (U+00C1): L<<480.0,-1.0>--<363.0,0.0>>
-
-	* Acircumflex (U+00C2): L<<480.0,-1.0>--<363.0,0.0>>
-
-	* Adieresis (U+00C4): L<<480.0,-1.0>--<363.0,0.0>>
-
-	* Agrave (U+00C0): L<<480.0,-1.0>--<363.0,0.0>>
-
-	* Aring (U+00C5): L<<480.0,-1.0>--<363.0,0.0>>
-
-	* Atilde (U+00C3): L<<480.0,-1.0>--<363.0,0.0>>
-
-	* X (U+0058): L<<455.0,0.0>--<332.0,-1.0>>
-
-	* a (U+0061): L<<480.0,-1.0>--<363.0,0.0>> 
+	* X (U+0058): L<<455.0,0.0>--<332.0,-1.0>> 
 
 	* And x (U+0078): L<<455.0,0.0>--<332.0,-1.0>> [code: found-semi-vertical]
 </div></details><br></div></details>
