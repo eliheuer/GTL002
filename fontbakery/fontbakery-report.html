@@ -74,18 +74,18 @@
             <tr>
                 <td>0</td>
                 <td>10</td>
-                <td>5</td>
+                <td>6</td>
                 <td>117</td>
                 <td>7</td>
-                <td>88</td>
+                <td>87</td>
             </tr>
             <tr>
                 <td>0%</td>
                 <td>6%</td>
-                <td>3%</td>
+                <td>4%</td>
                 <td>69%</td>
                 <td>4%</td>
-                <td>52%</td>
+                <td>51%</td>
             </tr>
             </table>
             
@@ -978,20 +978,12 @@ The font may be embedded but must only be installed temporarily on other systems
 
 <details><summary>⚠️ <strong>fonts/ttf/GTL002-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>OS/2 sTypoLineGap is not equal to 0. [code: OS/2]</p>
 </span></li></ul></div></details>
-<h2>&lt;Section: Outline Correctness Checks&gt; ⚠️⚠️</h2>
+<h2>&lt;Section: Outline Correctness Checks&gt; ⚠️⚠️⚠️</h2>
 <h3>Are there any misaligned on-curve points?</h3>
 <div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/outline_alignment_miss&gt;</div>
 
 <details><summary>⚠️ <strong>fonts/ttf/GTL002-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have on-curve points which have potentially incorrect y coordinates:</p>
-<pre><code>* C (U+0043): X=159.5,Y=0.5 (should be at baseline 0?)
-
-* C (U+0043): X=159.0,Y=699.5 (should be at cap-height 700?)
-
-* C (U+0043): X=311.5,Y=699.5 (should be at cap-height 700?)
-
-* C (U+0043): X=311.5,Y=0.5 (should be at baseline 0?)
-
-* G (U+0047): X=151.0,Y=0.5 (should be at baseline 0?)
+<pre><code>* G (U+0047): X=151.0,Y=0.5 (should be at baseline 0?)
 
 * G (U+0047): X=159.0,Y=699.5 (should be at cap-height 700?)
 
@@ -999,17 +991,9 @@ The font may be embedded but must only be installed temporarily on other systems
 
 * H (U+0048): X=60.0,Y=-1.0 (should be at baseline 0?)
 
-* K (U+004B): X=58.0,Y=-1.0 (should be at baseline 0?)
+* K (U+004B): X=60.0,Y=-1.0 (should be at baseline 0?)
 
 * M (U+004D): X=58.0,Y=-1.0 (should be at baseline 0?)
-
-* O (U+004F): X=164.0,Y=0.5 (should be at baseline 0?)
-
-* O (U+004F): X=164.0,Y=699.5 (should be at cap-height 700?)
-
-* O (U+004F): X=316.5,Y=699.5 (should be at cap-height 700?)
-
-* O (U+004F): X=316.5,Y=0.5 (should be at baseline 0?)
 
 * S (U+0053): X=325.5,Y=701.5 (should be at cap-height 700?)
 
@@ -1021,18 +1005,6 @@ The font may be embedded but must only be installed temporarily on other systems
 
 * Y (U+0059): X=190.0,Y=-1.0 (should be at baseline 0?)
 
-* a (U+0061): X=286.0,Y=531.0 (should be at x-height 530?)
-
-* b (U+0062): X=200.0,Y=529.0 (should be at x-height 530?)
-
-* c (U+0063): X=159.5,Y=0.5 (should be at baseline 0?)
-
-* c (U+0063): X=159.0,Y=699.5 (should be at cap-height 700?)
-
-* c (U+0063): X=311.5,Y=699.5 (should be at cap-height 700?)
-
-* c (U+0063): X=311.5,Y=0.5 (should be at baseline 0?)
-
 * g (U+0067): X=151.0,Y=0.5 (should be at baseline 0?)
 
 * g (U+0067): X=159.0,Y=699.5 (should be at cap-height 700?)
@@ -1041,17 +1013,9 @@ The font may be embedded but must only be installed temporarily on other systems
 
 * h (U+0068): X=60.0,Y=-1.0 (should be at baseline 0?)
 
-* k (U+006B): X=58.0,Y=-1.0 (should be at baseline 0?)
+* k (U+006B): X=60.0,Y=-1.0 (should be at baseline 0?)
 
 * m (U+006D): X=58.0,Y=-1.0 (should be at baseline 0?)
-
-* o (U+006F): X=164.0,Y=0.5 (should be at baseline 0?)
-
-* o (U+006F): X=164.0,Y=699.5 (should be at cap-height 700?)
-
-* o (U+006F): X=316.5,Y=699.5 (should be at cap-height 700?)
-
-* o (U+006F): X=316.5,Y=0.5 (should be at baseline 0?)
 
 * s (U+0073): X=325.5,Y=701.5 (should be at cap-height 700?)
 
@@ -1066,6 +1030,199 @@ The font may be embedded but must only be installed temporarily on other systems
 * y (U+0079): X=190.0,Y=-1.0 (should be at baseline 0?) 
 
 * And z (U+007A): X=214.0,Y=532.0 (should be at x-height 530?) [code: found-misalignments]
+</code></pre>
+</span></li></ul></div></details>
+<h3>Are any segments inordinately short?</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/outline_short_segments&gt;</div>
+
+<details><summary>⚠️ <strong>fonts/ttf/GTL002-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have segments which seem very short:</p>
+<pre><code>* K (U+004B) contains a short segment B&lt;&lt;200.0,460.0&gt;-&lt;200.0,450.0&gt;-&lt;210.0,450.0&gt;&gt;
+
+* K (U+004B) contains a short segment B&lt;&lt;375.0,418.5&gt;-&lt;371.0,408.0&gt;-&lt;371.0,400.0&gt;&gt;
+
+* K (U+004B) contains a short segment B&lt;&lt;225.0,280.0&gt;-&lt;221.0,293.0&gt;-&lt;217.5,296.5&gt;&gt;
+
+* K (U+004B) contains a short segment B&lt;&lt;217.5,296.5&gt;-&lt;214.0,300.0&gt;-&lt;210.0,300.0&gt;&gt;
+
+* K (U+004B) contains a short segment B&lt;&lt;210.0,300.0&gt;-&lt;200.0,300.0&gt;-&lt;200.0,290.0&gt;&gt;
+
+* M (U+004D) contains a short segment B&lt;&lt;305.0,464.0&gt;-&lt;313.0,464.0&gt;-&lt;319.5,470.5&gt;&gt;
+
+* M (U+004D) contains a short segment B&lt;&lt;427.0,331.5&gt;-&lt;426.0,337.0&gt;-&lt;418.0,337.0&gt;&gt;
+
+* M (U+004D) contains a short segment B&lt;&lt;418.0,337.0&gt;-&lt;409.0,337.0&gt;-&lt;403.0,324.0&gt;&gt;
+
+* M (U+004D) contains a short segment B&lt;&lt;211.0,331.5&gt;-&lt;205.0,342.0&gt;-&lt;198.0,342.0&gt;&gt;
+
+* M (U+004D) contains a short segment B&lt;&lt;198.0,342.0&gt;-&lt;192.0,342.0&gt;-&lt;187.5,336.0&gt;&gt;
+
+* N (U+004E) contains a short segment B&lt;&lt;196.0,306.0&gt;-&lt;191.0,306.0&gt;-&lt;187.0,302.0&gt;&gt;
+
+* N (U+004E) contains a short segment B&lt;&lt;187.0,302.0&gt;-&lt;183.0,298.0&gt;-&lt;183.0,286.0&gt;&gt;
+
+* Q (U+0051) contains a short segment B&lt;&lt;424.0,155.5&gt;-&lt;420.0,150.0&gt;-&lt;420.0,145.0&gt;&gt;
+
+* W (U+0057) contains a short segment B&lt;&lt;165.0,0.0&gt;-&lt;146.0,0.0&gt;-&lt;137.5,9.0&gt;&gt;
+
+* W (U+0057) contains a short segment B&lt;&lt;13.0,643.5&gt;-&lt;10.0,661.0&gt;-&lt;10.0,670.0&gt;&gt;
+
+* W (U+0057) contains a short segment B&lt;&lt;10.0,670.0&gt;-&lt;10.0,683.0&gt;-&lt;19.0,691.5&gt;&gt;
+
+* W (U+0057) contains a short segment B&lt;&lt;160.0,700.0&gt;-&lt;171.0,700.0&gt;-&lt;182.0,690.5&gt;&gt;
+
+* W (U+0057) contains a short segment B&lt;&lt;182.0,690.5&gt;-&lt;193.0,681.0&gt;-&lt;194.0,666.0&gt;&gt;
+
+* W (U+0057) contains a short segment B&lt;&lt;244.0,221.0&gt;-&lt;247.0,195.0&gt;-&lt;257.0,195.0&gt;&gt;
+
+* W (U+0057) contains a short segment B&lt;&lt;257.0,195.0&gt;-&lt;266.0,195.0&gt;-&lt;268.0,222.0&gt;&gt;
+
+* W (U+0057) contains a short segment B&lt;&lt;292.0,663.0&gt;-&lt;294.0,679.0&gt;-&lt;303.0,688.0&gt;&gt;
+
+* W (U+0057) contains a short segment B&lt;&lt;303.0,688.0&gt;-&lt;304.0,689.0&gt;-&lt;304.0,689.5&gt;&gt;
+
+* W (U+0057) contains a short segment B&lt;&lt;304.0,689.5&gt;-&lt;304.0,690.0&gt;-&lt;305.0,691.0&gt;&gt;
+
+* W (U+0057) contains a short segment B&lt;&lt;305.0,691.0&gt;-&lt;314.0,700.0&gt;-&lt;326.0,700.0&gt;&gt;
+
+* W (U+0057) contains a short segment B&lt;&lt;417.0,700.0&gt;-&lt;428.0,700.0&gt;-&lt;439.0,690.5&gt;&gt;
+
+* W (U+0057) contains a short segment B&lt;&lt;439.0,690.5&gt;-&lt;450.0,681.0&gt;-&lt;451.0,666.0&gt;&gt;
+
+* W (U+0057) contains a short segment B&lt;&lt;501.0,221.0&gt;-&lt;504.0,195.0&gt;-&lt;514.0,195.0&gt;&gt;
+
+* W (U+0057) contains a short segment B&lt;&lt;514.0,195.0&gt;-&lt;522.0,195.0&gt;-&lt;525.0,222.0&gt;&gt;
+
+* W (U+0057) contains a short segment B&lt;&lt;579.0,663.0&gt;-&lt;581.0,678.0&gt;-&lt;590.5,689.0&gt;&gt;
+
+* W (U+0057) contains a short segment B&lt;&lt;590.5,689.0&gt;-&lt;600.0,700.0&gt;-&lt;613.0,700.0&gt;&gt;
+
+* W (U+0057) contains a short segment B&lt;&lt;716.0,700.0&gt;-&lt;733.0,700.0&gt;-&lt;740.5,689.0&gt;&gt;
+
+* W (U+0057) contains a short segment B&lt;&lt;740.5,689.0&gt;-&lt;748.0,678.0&gt;-&lt;748.0,663.0&gt;&gt;
+
+* W (U+0057) contains a short segment B&lt;&lt;615.0,9.0&gt;-&lt;607.0,0.0&gt;-&lt;587.0,0.0&gt;&gt;
+
+* W (U+0057) contains a short segment B&lt;&lt;442.0,0.0&gt;-&lt;423.0,0.0&gt;-&lt;413.5,9.0&gt;&gt;
+
+* X (U+0058) contains a short segment B&lt;&lt;129.5,374.5&gt;-&lt;126.0,385.0&gt;-&lt;124.0,390.0&gt;&gt;
+
+* X (U+0058) contains a short segment B&lt;&lt;242.0,481.0&gt;-&lt;244.0,477.0&gt;-&lt;247.5,472.0&gt;&gt;
+
+* X (U+0058) contains a short segment B&lt;&lt;247.5,472.0&gt;-&lt;251.0,467.0&gt;-&lt;256.0,467.0&gt;&gt;
+
+* X (U+0058) contains a short segment B&lt;&lt;256.0,467.0&gt;-&lt;260.0,467.0&gt;-&lt;262.0,472.0&gt;&gt;
+
+* X (U+0058) contains a short segment B&lt;&lt;262.0,472.0&gt;-&lt;264.0,477.0&gt;-&lt;266.0,482.0&gt;&gt;
+
+* X (U+0058) contains a short segment B&lt;&lt;381.0,392.0&gt;-&lt;377.0,384.0&gt;-&lt;375.0,375.5&gt;&gt;
+
+* X (U+0058) contains a short segment B&lt;&lt;375.0,375.5&gt;-&lt;373.0,367.0&gt;-&lt;375.0,360.0&gt;&gt;
+
+* Y (U+0059) contains a short segment B&lt;&lt;222.0,481.0&gt;-&lt;224.0,477.0&gt;-&lt;227.5,472.0&gt;&gt;
+
+* Y (U+0059) contains a short segment B&lt;&lt;227.5,472.0&gt;-&lt;231.0,467.0&gt;-&lt;236.0,467.0&gt;&gt;
+
+* Y (U+0059) contains a short segment B&lt;&lt;236.0,467.0&gt;-&lt;240.0,467.0&gt;-&lt;242.5,472.0&gt;&gt;
+
+* Y (U+0059) contains a short segment B&lt;&lt;242.5,472.0&gt;-&lt;245.0,477.0&gt;-&lt;246.0,482.0&gt;&gt;
+
+* Z (U+005A) contains a short segment B&lt;&lt;216.0,175.0&gt;-&lt;216.0,168.0&gt;-&lt;221.0,163.0&gt;&gt;
+
+* Z (U+005A) contains a short segment B&lt;&lt;221.0,163.0&gt;-&lt;226.0,158.0&gt;-&lt;234.0,158.0&gt;&gt;
+
+* k (U+006B) contains a short segment B&lt;&lt;200.0,460.0&gt;-&lt;200.0,450.0&gt;-&lt;210.0,450.0&gt;&gt;
+
+* k (U+006B) contains a short segment B&lt;&lt;375.0,418.5&gt;-&lt;371.0,408.0&gt;-&lt;371.0,400.0&gt;&gt;
+
+* k (U+006B) contains a short segment B&lt;&lt;225.0,280.0&gt;-&lt;221.0,293.0&gt;-&lt;217.5,296.5&gt;&gt;
+
+* k (U+006B) contains a short segment B&lt;&lt;217.5,296.5&gt;-&lt;214.0,300.0&gt;-&lt;210.0,300.0&gt;&gt;
+
+* k (U+006B) contains a short segment B&lt;&lt;210.0,300.0&gt;-&lt;200.0,300.0&gt;-&lt;200.0,290.0&gt;&gt;
+
+* m (U+006D) contains a short segment B&lt;&lt;305.0,464.0&gt;-&lt;313.0,464.0&gt;-&lt;319.5,470.5&gt;&gt;
+
+* m (U+006D) contains a short segment B&lt;&lt;427.0,331.5&gt;-&lt;426.0,337.0&gt;-&lt;418.0,337.0&gt;&gt;
+
+* m (U+006D) contains a short segment B&lt;&lt;418.0,337.0&gt;-&lt;409.0,337.0&gt;-&lt;403.0,324.0&gt;&gt;
+
+* m (U+006D) contains a short segment B&lt;&lt;211.0,331.5&gt;-&lt;205.0,342.0&gt;-&lt;198.0,342.0&gt;&gt;
+
+* m (U+006D) contains a short segment B&lt;&lt;198.0,342.0&gt;-&lt;192.0,342.0&gt;-&lt;187.5,336.0&gt;&gt;
+
+* n (U+006E) contains a short segment B&lt;&lt;196.0,306.0&gt;-&lt;191.0,306.0&gt;-&lt;187.0,302.0&gt;&gt;
+
+* n (U+006E) contains a short segment B&lt;&lt;187.0,302.0&gt;-&lt;183.0,298.0&gt;-&lt;183.0,286.0&gt;&gt;
+
+* q (U+0071) contains a short segment B&lt;&lt;424.0,155.5&gt;-&lt;420.0,150.0&gt;-&lt;420.0,145.0&gt;&gt;
+
+* w (U+0077) contains a short segment B&lt;&lt;165.0,0.0&gt;-&lt;146.0,0.0&gt;-&lt;137.5,9.0&gt;&gt;
+
+* w (U+0077) contains a short segment B&lt;&lt;13.0,643.5&gt;-&lt;10.0,661.0&gt;-&lt;10.0,670.0&gt;&gt;
+
+* w (U+0077) contains a short segment B&lt;&lt;10.0,670.0&gt;-&lt;10.0,683.0&gt;-&lt;19.0,691.5&gt;&gt;
+
+* w (U+0077) contains a short segment B&lt;&lt;160.0,700.0&gt;-&lt;171.0,700.0&gt;-&lt;182.0,690.5&gt;&gt;
+
+* w (U+0077) contains a short segment B&lt;&lt;182.0,690.5&gt;-&lt;193.0,681.0&gt;-&lt;194.0,666.0&gt;&gt;
+
+* w (U+0077) contains a short segment B&lt;&lt;244.0,221.0&gt;-&lt;247.0,195.0&gt;-&lt;257.0,195.0&gt;&gt;
+
+* w (U+0077) contains a short segment B&lt;&lt;257.0,195.0&gt;-&lt;266.0,195.0&gt;-&lt;268.0,222.0&gt;&gt;
+
+* w (U+0077) contains a short segment B&lt;&lt;292.0,663.0&gt;-&lt;294.0,679.0&gt;-&lt;303.0,688.0&gt;&gt;
+
+* w (U+0077) contains a short segment B&lt;&lt;303.0,688.0&gt;-&lt;304.0,689.0&gt;-&lt;304.0,689.5&gt;&gt;
+
+* w (U+0077) contains a short segment B&lt;&lt;304.0,689.5&gt;-&lt;304.0,690.0&gt;-&lt;305.0,691.0&gt;&gt;
+
+* w (U+0077) contains a short segment B&lt;&lt;305.0,691.0&gt;-&lt;314.0,700.0&gt;-&lt;326.0,700.0&gt;&gt;
+
+* w (U+0077) contains a short segment B&lt;&lt;417.0,700.0&gt;-&lt;428.0,700.0&gt;-&lt;439.0,690.5&gt;&gt;
+
+* w (U+0077) contains a short segment B&lt;&lt;439.0,690.5&gt;-&lt;450.0,681.0&gt;-&lt;451.0,666.0&gt;&gt;
+
+* w (U+0077) contains a short segment B&lt;&lt;501.0,221.0&gt;-&lt;504.0,195.0&gt;-&lt;514.0,195.0&gt;&gt;
+
+* w (U+0077) contains a short segment B&lt;&lt;514.0,195.0&gt;-&lt;522.0,195.0&gt;-&lt;525.0,222.0&gt;&gt;
+
+* w (U+0077) contains a short segment B&lt;&lt;579.0,663.0&gt;-&lt;581.0,678.0&gt;-&lt;590.5,689.0&gt;&gt;
+
+* w (U+0077) contains a short segment B&lt;&lt;590.5,689.0&gt;-&lt;600.0,700.0&gt;-&lt;613.0,700.0&gt;&gt;
+
+* w (U+0077) contains a short segment B&lt;&lt;716.0,700.0&gt;-&lt;733.0,700.0&gt;-&lt;740.5,689.0&gt;&gt;
+
+* w (U+0077) contains a short segment B&lt;&lt;740.5,689.0&gt;-&lt;748.0,678.0&gt;-&lt;748.0,663.0&gt;&gt;
+
+* w (U+0077) contains a short segment B&lt;&lt;615.0,9.0&gt;-&lt;607.0,0.0&gt;-&lt;587.0,0.0&gt;&gt;
+
+* w (U+0077) contains a short segment B&lt;&lt;442.0,0.0&gt;-&lt;423.0,0.0&gt;-&lt;413.5,9.0&gt;&gt;
+
+* x (U+0078) contains a short segment B&lt;&lt;129.5,374.5&gt;-&lt;126.0,385.0&gt;-&lt;124.0,390.0&gt;&gt;
+
+* x (U+0078) contains a short segment B&lt;&lt;242.0,481.0&gt;-&lt;244.0,477.0&gt;-&lt;247.5,472.0&gt;&gt;
+
+* x (U+0078) contains a short segment B&lt;&lt;247.5,472.0&gt;-&lt;251.0,467.0&gt;-&lt;256.0,467.0&gt;&gt;
+
+* x (U+0078) contains a short segment B&lt;&lt;256.0,467.0&gt;-&lt;260.0,467.0&gt;-&lt;262.0,472.0&gt;&gt;
+
+* x (U+0078) contains a short segment B&lt;&lt;262.0,472.0&gt;-&lt;264.0,477.0&gt;-&lt;266.0,482.0&gt;&gt;
+
+* x (U+0078) contains a short segment B&lt;&lt;381.0,392.0&gt;-&lt;377.0,384.0&gt;-&lt;375.0,375.5&gt;&gt;
+
+* x (U+0078) contains a short segment B&lt;&lt;375.0,375.5&gt;-&lt;373.0,367.0&gt;-&lt;375.0,360.0&gt;&gt;
+
+* y (U+0079) contains a short segment B&lt;&lt;222.0,481.0&gt;-&lt;224.0,477.0&gt;-&lt;227.5,472.0&gt;&gt;
+
+* y (U+0079) contains a short segment B&lt;&lt;227.5,472.0&gt;-&lt;231.0,467.0&gt;-&lt;236.0,467.0&gt;&gt;
+
+* y (U+0079) contains a short segment B&lt;&lt;236.0,467.0&gt;-&lt;240.0,467.0&gt;-&lt;242.5,472.0&gt;&gt;
+
+* y (U+0079) contains a short segment B&lt;&lt;242.5,472.0&gt;-&lt;245.0,477.0&gt;-&lt;246.0,482.0&gt;&gt;
+
+* z (U+007A) contains a short segment B&lt;&lt;216.0,175.0&gt;-&lt;216.0,168.0&gt;-&lt;221.0,163.0&gt;&gt; 
+
+* And z (U+007A) contains a short segment B&lt;&lt;221.0,163.0&gt;-&lt;226.0,158.0&gt;-&lt;234.0,158.0&gt;&gt; [code: found-short-segments]
 </code></pre>
 </span></li></ul></div></details>
 <h3>Do outlines contain any semi-vertical or semi-horizontal lines?</h3>
