@@ -926,9 +926,13 @@ The following glyphs do not have the recommended number of contours:
 
 	* x (U+0078): X=160.0,Y=-1.0 (should be at baseline 0?)
 
-	* y (U+0079): X=190.0,Y=-1.0 (should be at baseline 0?) 
+	* y (U+0079): X=190.0,Y=-1.0 (should be at baseline 0?)
 
-	* And z (U+007A): X=214.0,Y=532.0 (should be at x-height 530?) [code: found-misalignments]
+	* z (U+007A): X=214.0,Y=532.0 (should be at x-height 530?)
+
+	* Aacute (U+00C1): X=319.0,Y=742.0 (should be at ascender 740?) 
+
+	* And Eacute (U+00C9): X=240.0,Y=742.0 (should be at ascender 740?) [code: found-misalignments]
 </div></details><details><summary>⚠ <b>WARN:</b> Are any segments inordinately short? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_short_segments">com.google.fonts/check/outline_short_segments</a>)</summary><div>
 
 
