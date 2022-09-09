@@ -1,6 +1,6 @@
 # GTL002
 
-![Sample Image](documentation/Alpha-NFT.png)
+![Sample Image](documentation/GTL002-Alpha-NFT.png)
 
 ## About
 
