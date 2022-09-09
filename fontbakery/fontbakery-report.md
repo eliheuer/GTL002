@@ -17,9 +17,6 @@ No such DRM restrictions can be enabled on the Google Fonts collection, so the f
 	- 0x00A0 (NO-BREAK SPACE)
 
 
-	- 0x002E (FULL STOP)
-
-
 	- 0x003A (COLON)
 
 
@@ -815,9 +812,7 @@ No such DRM restrictions can be enabled on the Google Fonts collection, so the f
 
 The following glyphs do not have the recommended number of contours:
 
-	- Glyph name: zero	Contours detected: 1	Expected: 2 or 3
-
-	- Glyph name: eight	Contours detected: 1	Expected: 3
+	- Glyph name: eight	Contours detected: 2	Expected: 3
 
 	- Glyph name: b	Contours detected: 3	Expected: 2
 
@@ -835,17 +830,15 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: e	Contours detected: 1	Expected: 2
 
-	- Glyph name: eight	Contours detected: 1	Expected: 3
+	- Glyph name: eight	Contours detected: 2	Expected: 3
 
 	- Glyph name: g	Contours detected: 1	Expected: 2 or 3
 
 	- Glyph name: i	Contours detected: 1	Expected: 2
 
-	- Glyph name: j	Contours detected: 1	Expected: 2
+	- Glyph name: j	Contours detected: 1	Expected: 2 
 
-	- Glyph name: r	Contours detected: 2	Expected: 1 
-
-	- And Glyph name: zero	Contours detected: 1	Expected: 2 or 3
+	- And Glyph name: r	Contours detected: 2	Expected: 1
  [code: contour-count]
 </div></details><details><summary>⚠ <b>WARN:</b> Checking Vertical Metric Linegaps. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/hhea.html#com.google.fonts/check/linegaps">com.google.fonts/check/linegaps</a>)</summary><div>
 
