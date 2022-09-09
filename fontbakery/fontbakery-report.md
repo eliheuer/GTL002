@@ -2,7 +2,7 @@
 
 Fontbakery version: 0.8.10
 
-<details><summary><b>[15] GTL002-Regular.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking OS/2 fsType does not impose restrictions. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/fstype">com.google.fonts/check/fstype</a>)</summary><div>
+<details><summary><b>[14] GTL002-Regular.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking OS/2 fsType does not impose restrictions. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/fstype">com.google.fonts/check/fstype</a>)</summary><div>
 
 
 * 🔥 **FAIL** In this font fsType is set to 8 meaning that:
@@ -866,12 +866,6 @@ The following glyphs do not have the recommended number of contours:
 
 	* K (U+004B): X=60.0,Y=-1.0 (should be at baseline 0?)
 
-	* X (U+0058): X=60.0,Y=-1.0 (should be at baseline 0?)
-
-	* X (U+0058): X=332.0,Y=-1.0 (should be at baseline 0?)
-
-	* X (U+0058): X=160.0,Y=-1.0 (should be at baseline 0?)
-
 	* Y (U+0059): X=190.0,Y=-1.0 (should be at baseline 0?)
 
 	* g (U+0067): X=151.0,Y=0.5 (should be at baseline 0?)
@@ -885,12 +879,6 @@ The following glyphs do not have the recommended number of contours:
 	* k (U+006B): X=60.0,Y=-1.0 (should be at baseline 0?)
 
 	* t (U+0074): X=310.0,Y=529.0 (should be at x-height 530?)
-
-	* x (U+0078): X=60.0,Y=-1.0 (should be at baseline 0?)
-
-	* x (U+0078): X=332.0,Y=-1.0 (should be at baseline 0?)
-
-	* x (U+0078): X=160.0,Y=-1.0 (should be at baseline 0?)
 
 	* y (U+0079): X=190.0,Y=-1.0 (should be at baseline 0?)
 
@@ -926,65 +914,33 @@ The following glyphs do not have the recommended number of contours:
 
 	* N (U+004E) contains a short segment B<<204.0,302.0>-<200.0,298.0>-<200.0,286.0>>
 
-	* V (U+0056) contains a short segment B<<239.0,261.0>-<240.0,254.0>-<242.0,248.5>>
+	* W (U+0057) contains a short segment B<<135.0,0.0>-<120.0,0.0>-<109.0,9.0>>
 
-	* V (U+0056) contains a short segment B<<242.0,248.5>-<244.0,243.0>-<250.0,243.0>>
+	* W (U+0057) contains a short segment B<<12.0,651.0>-<10.0,663.0>-<10.0,670.0>>
 
-	* W (U+0057) contains a short segment B<<165.0,0.0>-<146.0,0.0>-<137.5,9.0>>
+	* W (U+0057) contains a short segment B<<10.0,670.0>-<10.0,685.0>-<19.0,692.5>>
 
-	* W (U+0057) contains a short segment B<<13.0,643.5>-<10.0,661.0>-<10.0,670.0>>
+	* W (U+0057) contains a short segment B<<235.0,243.0>-<237.0,220.0>-<250.0,220.0>>
 
-	* W (U+0057) contains a short segment B<<10.0,670.0>-<10.0,683.0>-<19.0,691.5>>
+	* W (U+0057) contains a short segment B<<250.0,220.0>-<262.0,220.0>-<265.0,242.0>>
 
-	* W (U+0057) contains a short segment B<<160.0,700.0>-<171.0,700.0>-<182.0,690.5>>
+	* W (U+0057) contains a short segment B<<563.0,243.0>-<566.0,220.0>-<578.0,220.0>>
 
-	* W (U+0057) contains a short segment B<<182.0,690.5>-<193.0,681.0>-<194.0,666.0>>
+	* W (U+0057) contains a short segment B<<578.0,220.0>-<591.0,220.0>-<593.0,242.0>>
 
-	* W (U+0057) contains a short segment B<<244.0,221.0>-<247.0,195.0>-<257.0,195.0>>
+	* W (U+0057) contains a short segment B<<778.0,700.0>-<795.0,700.0>-<802.5,689.0>>
 
-	* W (U+0057) contains a short segment B<<257.0,195.0>-<266.0,195.0>-<268.0,222.0>>
+	* W (U+0057) contains a short segment B<<802.5,689.0>-<810.0,678.0>-<810.0,663.0>>
 
-	* W (U+0057) contains a short segment B<<292.0,663.0>-<294.0,679.0>-<303.0,688.0>>
+	* W (U+0057) contains a short segment B<<810.0,663.0>-<810.0,656.0>-<808.0,642.5>>
 
-	* W (U+0057) contains a short segment B<<303.0,688.0>-<304.0,689.0>-<304.0,689.5>>
+	* W (U+0057) contains a short segment B<<513.0,0.0>-<498.0,0.0>-<487.5,9.0>>
 
-	* W (U+0057) contains a short segment B<<304.0,689.5>-<304.0,690.0>-<305.0,691.0>>
+	* W (U+0057) contains a short segment B<<419.0,379.0>-<417.0,395.0>-<410.0,395.0>>
 
-	* W (U+0057) contains a short segment B<<305.0,691.0>-<314.0,700.0>-<326.0,700.0>>
+	* W (U+0057) contains a short segment B<<410.0,395.0>-<404.0,395.0>-<402.0,379.0>>
 
-	* W (U+0057) contains a short segment B<<417.0,700.0>-<428.0,700.0>-<439.0,690.5>>
-
-	* W (U+0057) contains a short segment B<<439.0,690.5>-<450.0,681.0>-<451.0,666.0>>
-
-	* W (U+0057) contains a short segment B<<501.0,221.0>-<504.0,195.0>-<514.0,195.0>>
-
-	* W (U+0057) contains a short segment B<<514.0,195.0>-<522.0,195.0>-<525.0,222.0>>
-
-	* W (U+0057) contains a short segment B<<579.0,663.0>-<581.0,678.0>-<590.5,689.0>>
-
-	* W (U+0057) contains a short segment B<<590.5,689.0>-<600.0,700.0>-<613.0,700.0>>
-
-	* W (U+0057) contains a short segment B<<716.0,700.0>-<733.0,700.0>-<740.5,689.0>>
-
-	* W (U+0057) contains a short segment B<<740.5,689.0>-<748.0,678.0>-<748.0,663.0>>
-
-	* W (U+0057) contains a short segment B<<615.0,9.0>-<607.0,0.0>-<587.0,0.0>>
-
-	* W (U+0057) contains a short segment B<<442.0,0.0>-<423.0,0.0>-<413.5,9.0>>
-
-	* X (U+0058) contains a short segment B<<129.5,374.5>-<126.0,385.0>-<124.0,390.0>>
-
-	* X (U+0058) contains a short segment B<<242.0,481.0>-<244.0,477.0>-<247.5,472.0>>
-
-	* X (U+0058) contains a short segment B<<247.5,472.0>-<251.0,467.0>-<256.0,467.0>>
-
-	* X (U+0058) contains a short segment B<<256.0,467.0>-<260.0,467.0>-<262.0,472.0>>
-
-	* X (U+0058) contains a short segment B<<262.0,472.0>-<264.0,477.0>-<266.0,482.0>>
-
-	* X (U+0058) contains a short segment B<<381.0,392.0>-<377.0,384.0>-<375.0,375.5>>
-
-	* X (U+0058) contains a short segment B<<375.0,375.5>-<373.0,367.0>-<375.0,360.0>>
+	* X (U+0058) contains a short segment B<<377.5,395.0>-<374.0,388.0>-<374.0,380.0>>
 
 	* Y (U+0059) contains a short segment B<<222.0,481.0>-<224.0,477.0>-<227.5,472.0>>
 
@@ -1020,65 +976,33 @@ The following glyphs do not have the recommended number of contours:
 
 	* n (U+006E) contains a short segment B<<204.0,302.0>-<200.0,298.0>-<200.0,286.0>>
 
-	* v (U+0076) contains a short segment B<<239.0,261.0>-<240.0,254.0>-<242.0,248.5>>
+	* w (U+0077) contains a short segment B<<135.0,0.0>-<120.0,0.0>-<109.0,9.0>>
 
-	* v (U+0076) contains a short segment B<<242.0,248.5>-<244.0,243.0>-<250.0,243.0>>
+	* w (U+0077) contains a short segment B<<12.0,651.0>-<10.0,663.0>-<10.0,670.0>>
 
-	* w (U+0077) contains a short segment B<<165.0,0.0>-<146.0,0.0>-<137.5,9.0>>
+	* w (U+0077) contains a short segment B<<10.0,670.0>-<10.0,685.0>-<19.0,692.5>>
 
-	* w (U+0077) contains a short segment B<<13.0,643.5>-<10.0,661.0>-<10.0,670.0>>
+	* w (U+0077) contains a short segment B<<235.0,243.0>-<237.0,220.0>-<250.0,220.0>>
 
-	* w (U+0077) contains a short segment B<<10.0,670.0>-<10.0,683.0>-<19.0,691.5>>
+	* w (U+0077) contains a short segment B<<250.0,220.0>-<262.0,220.0>-<265.0,242.0>>
 
-	* w (U+0077) contains a short segment B<<160.0,700.0>-<171.0,700.0>-<182.0,690.5>>
+	* w (U+0077) contains a short segment B<<563.0,243.0>-<566.0,220.0>-<578.0,220.0>>
 
-	* w (U+0077) contains a short segment B<<182.0,690.5>-<193.0,681.0>-<194.0,666.0>>
+	* w (U+0077) contains a short segment B<<578.0,220.0>-<591.0,220.0>-<593.0,242.0>>
 
-	* w (U+0077) contains a short segment B<<244.0,221.0>-<247.0,195.0>-<257.0,195.0>>
+	* w (U+0077) contains a short segment B<<778.0,700.0>-<795.0,700.0>-<802.5,689.0>>
 
-	* w (U+0077) contains a short segment B<<257.0,195.0>-<266.0,195.0>-<268.0,222.0>>
+	* w (U+0077) contains a short segment B<<802.5,689.0>-<810.0,678.0>-<810.0,663.0>>
 
-	* w (U+0077) contains a short segment B<<292.0,663.0>-<294.0,679.0>-<303.0,688.0>>
+	* w (U+0077) contains a short segment B<<810.0,663.0>-<810.0,656.0>-<808.0,642.5>>
 
-	* w (U+0077) contains a short segment B<<303.0,688.0>-<304.0,689.0>-<304.0,689.5>>
+	* w (U+0077) contains a short segment B<<513.0,0.0>-<498.0,0.0>-<487.5,9.0>>
 
-	* w (U+0077) contains a short segment B<<304.0,689.5>-<304.0,690.0>-<305.0,691.0>>
+	* w (U+0077) contains a short segment B<<419.0,379.0>-<417.0,395.0>-<410.0,395.0>>
 
-	* w (U+0077) contains a short segment B<<305.0,691.0>-<314.0,700.0>-<326.0,700.0>>
+	* w (U+0077) contains a short segment B<<410.0,395.0>-<404.0,395.0>-<402.0,379.0>>
 
-	* w (U+0077) contains a short segment B<<417.0,700.0>-<428.0,700.0>-<439.0,690.5>>
-
-	* w (U+0077) contains a short segment B<<439.0,690.5>-<450.0,681.0>-<451.0,666.0>>
-
-	* w (U+0077) contains a short segment B<<501.0,221.0>-<504.0,195.0>-<514.0,195.0>>
-
-	* w (U+0077) contains a short segment B<<514.0,195.0>-<522.0,195.0>-<525.0,222.0>>
-
-	* w (U+0077) contains a short segment B<<579.0,663.0>-<581.0,678.0>-<590.5,689.0>>
-
-	* w (U+0077) contains a short segment B<<590.5,689.0>-<600.0,700.0>-<613.0,700.0>>
-
-	* w (U+0077) contains a short segment B<<716.0,700.0>-<733.0,700.0>-<740.5,689.0>>
-
-	* w (U+0077) contains a short segment B<<740.5,689.0>-<748.0,678.0>-<748.0,663.0>>
-
-	* w (U+0077) contains a short segment B<<615.0,9.0>-<607.0,0.0>-<587.0,0.0>>
-
-	* w (U+0077) contains a short segment B<<442.0,0.0>-<423.0,0.0>-<413.5,9.0>>
-
-	* x (U+0078) contains a short segment B<<129.5,374.5>-<126.0,385.0>-<124.0,390.0>>
-
-	* x (U+0078) contains a short segment B<<242.0,481.0>-<244.0,477.0>-<247.5,472.0>>
-
-	* x (U+0078) contains a short segment B<<247.5,472.0>-<251.0,467.0>-<256.0,467.0>>
-
-	* x (U+0078) contains a short segment B<<256.0,467.0>-<260.0,467.0>-<262.0,472.0>>
-
-	* x (U+0078) contains a short segment B<<262.0,472.0>-<264.0,477.0>-<266.0,482.0>>
-
-	* x (U+0078) contains a short segment B<<381.0,392.0>-<377.0,384.0>-<375.0,375.5>>
-
-	* x (U+0078) contains a short segment B<<375.0,375.5>-<373.0,367.0>-<375.0,360.0>>
+	* x (U+0078) contains a short segment B<<377.5,395.0>-<374.0,388.0>-<374.0,380.0>>
 
 	* y (U+0079) contains a short segment B<<222.0,481.0>-<224.0,477.0>-<227.5,472.0>>
 
@@ -1091,21 +1015,13 @@ The following glyphs do not have the recommended number of contours:
 	* z (U+007A) contains a short segment B<<216.0,175.0>-<216.0,168.0>-<221.0,163.0>> 
 
 	* And z (U+007A) contains a short segment B<<221.0,163.0>-<226.0,158.0>-<234.0,158.0>> [code: found-short-segments]
-</div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any semi-vertical or semi-horizontal lines? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_semi_vertical">com.google.fonts/check/outline_semi_vertical</a>)</summary><div>
-
-
-* ⚠ **WARN** The following glyphs have semi-vertical/semi-horizontal lines:
-
-	* X (U+0058): L<<455.0,0.0>--<332.0,-1.0>> 
-
-	* And x (U+0078): L<<455.0,0.0>--<332.0,-1.0>> [code: found-semi-vertical]
 </div></details><br></div></details>
 ### Summary
 
 | 💔 ERROR | 🔥 FAIL | ⚠ WARN | 💤 SKIP | ℹ INFO | 🍞 PASS | 🔎 DEBUG |
 |:-----:|:----:|:----:|:----:|:----:|:----:|:----:|
-| 0 | 9 | 6 | 117 | 7 | 88 | 0 |
-| 0% | 4% | 3% | 52% | 3% | 39% | 0% |
+| 0 | 9 | 5 | 117 | 7 | 89 | 0 |
+| 0% | 4% | 2% | 52% | 3% | 39% | 0% |
 
 **Note:** The following loglevels were omitted in this report:
 * **SKIP**
