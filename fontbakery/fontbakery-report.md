@@ -2,7 +2,7 @@
 
 Fontbakery version: 0.8.10
 
-<details><summary><b>[16] GTL002-Regular.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking OS/2 fsType does not impose restrictions. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/fstype">com.google.fonts/check/fstype</a>)</summary><div>
+<details><summary><b>[15] GTL002-Regular.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking OS/2 fsType does not impose restrictions. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/fstype">com.google.fonts/check/fstype</a>)</summary><div>
 
 
 * 🔥 **FAIL** In this font fsType is set to 8 meaning that:
@@ -13,36 +13,6 @@ No such DRM restrictions can be enabled on the Google Fonts collection, so the f
 
 
 * 🔥 **FAIL** Missing required codepoints:
-
-	- 0x0030 (DIGIT ZERO)
-
-
-	- 0x0031 (DIGIT ONE)
-
-
-	- 0x0032 (DIGIT TWO)
-
-
-	- 0x0033 (DIGIT THREE)
-
-
-	- 0x0034 (DIGIT FOUR)
-
-
-	- 0x0035 (DIGIT FIVE)
-
-
-	- 0x0036 (DIGIT SIX)
-
-
-	- 0x0037 (DIGIT SEVEN)
-
-
-	- 0x0038 (DIGIT EIGHT)
-
-
-	- 0x0039 (DIGIT NINE)
-
 
 	- 0x00A0 (NO-BREAK SPACE)
 
@@ -826,10 +796,6 @@ No such DRM restrictions can be enabled on the Google Fonts collection, so the f
 
 
 * 🔥 **FAIL** OS/2.fsSelection bit 7 (USE_TYPO_METRICS) wasNOT set in the following fonts: ['fonts/ttf/GTL002-Regular.ttf']. [code: missing-os2-fsselection-bit7]
-</div></details><details><summary>🔥 <b>FAIL:</b> Check font can render its own name. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/render_own_name">com.google.fonts/check/render_own_name</a>)</summary><div>
-
-
-* 🔥 **FAIL** .notdef glyphs were found when attempting to render GTL002 [code: render-own-name]
 </div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 Metrics match hhea Metrics. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/os2_metrics_match_hhea">com.google.fonts/check/os2_metrics_match_hhea</a>)</summary><div>
 
 
@@ -849,6 +815,10 @@ No such DRM restrictions can be enabled on the Google Fonts collection, so the f
 
 The following glyphs do not have the recommended number of contours:
 
+	- Glyph name: zero	Contours detected: 1	Expected: 2 or 3
+
+	- Glyph name: eight	Contours detected: 1	Expected: 3
+
 	- Glyph name: b	Contours detected: 3	Expected: 2
 
 	- Glyph name: e	Contours detected: 1	Expected: 2
@@ -865,13 +835,17 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: e	Contours detected: 1	Expected: 2
 
+	- Glyph name: eight	Contours detected: 1	Expected: 3
+
 	- Glyph name: g	Contours detected: 1	Expected: 2 or 3
 
 	- Glyph name: i	Contours detected: 1	Expected: 2
 
-	- Glyph name: j	Contours detected: 1	Expected: 2 
+	- Glyph name: j	Contours detected: 1	Expected: 2
 
-	- And Glyph name: r	Contours detected: 2	Expected: 1
+	- Glyph name: r	Contours detected: 2	Expected: 1 
+
+	- And Glyph name: zero	Contours detected: 1	Expected: 2 or 3
  [code: contour-count]
 </div></details><details><summary>⚠ <b>WARN:</b> Checking Vertical Metric Linegaps. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/hhea.html#com.google.fonts/check/linegaps">com.google.fonts/check/linegaps</a>)</summary><div>
 
@@ -892,8 +866,6 @@ The following glyphs do not have the recommended number of contours:
 
 	* K (U+004B): X=60.0,Y=-1.0 (should be at baseline 0?)
 
-	* S (U+0053): X=325.5,Y=701.5 (should be at cap-height 700?)
-
 	* X (U+0058): X=60.0,Y=-1.0 (should be at baseline 0?)
 
 	* X (U+0058): X=332.0,Y=-1.0 (should be at baseline 0?)
@@ -912,9 +884,7 @@ The following glyphs do not have the recommended number of contours:
 
 	* k (U+006B): X=60.0,Y=-1.0 (should be at baseline 0?)
 
-	* s (U+0073): X=325.5,Y=701.5 (should be at cap-height 700?)
-
-	* t (U+0074): X=298.0,Y=531.0 (should be at x-height 530?)
+	* t (U+0074): X=310.0,Y=529.0 (should be at x-height 530?)
 
 	* x (U+0078): X=60.0,Y=-1.0 (should be at baseline 0?)
 
@@ -952,11 +922,13 @@ The following glyphs do not have the recommended number of contours:
 
 	* M (U+004D) contains a short segment B<<222.0,323.0>-<217.0,330.0>-<210.0,330.0>>
 
-	* N (U+004E) contains a short segment B<<196.0,306.0>-<191.0,306.0>-<187.0,302.0>>
+	* N (U+004E) contains a short segment B<<213.0,306.0>-<208.0,306.0>-<204.0,302.0>>
 
-	* N (U+004E) contains a short segment B<<187.0,302.0>-<183.0,298.0>-<183.0,286.0>>
+	* N (U+004E) contains a short segment B<<204.0,302.0>-<200.0,298.0>-<200.0,286.0>>
 
-	* Q (U+0051) contains a short segment B<<424.0,155.5>-<420.0,150.0>-<420.0,145.0>>
+	* V (U+0056) contains a short segment B<<239.0,261.0>-<240.0,254.0>-<242.0,248.5>>
+
+	* V (U+0056) contains a short segment B<<242.0,248.5>-<244.0,243.0>-<250.0,243.0>>
 
 	* W (U+0057) contains a short segment B<<165.0,0.0>-<146.0,0.0>-<137.5,9.0>>
 
@@ -1044,11 +1016,13 @@ The following glyphs do not have the recommended number of contours:
 
 	* m (U+006D) contains a short segment B<<222.0,323.0>-<217.0,330.0>-<210.0,330.0>>
 
-	* n (U+006E) contains a short segment B<<196.0,306.0>-<191.0,306.0>-<187.0,302.0>>
+	* n (U+006E) contains a short segment B<<213.0,306.0>-<208.0,306.0>-<204.0,302.0>>
 
-	* n (U+006E) contains a short segment B<<187.0,302.0>-<183.0,298.0>-<183.0,286.0>>
+	* n (U+006E) contains a short segment B<<204.0,302.0>-<200.0,298.0>-<200.0,286.0>>
 
-	* q (U+0071) contains a short segment B<<424.0,155.5>-<420.0,150.0>-<420.0,145.0>>
+	* v (U+0076) contains a short segment B<<239.0,261.0>-<240.0,254.0>-<242.0,248.5>>
+
+	* v (U+0076) contains a short segment B<<242.0,248.5>-<244.0,243.0>-<250.0,243.0>>
 
 	* w (U+0077) contains a short segment B<<165.0,0.0>-<146.0,0.0>-<137.5,9.0>>
 
@@ -1130,8 +1104,8 @@ The following glyphs do not have the recommended number of contours:
 
 | 💔 ERROR | 🔥 FAIL | ⚠ WARN | 💤 SKIP | ℹ INFO | 🍞 PASS | 🔎 DEBUG |
 |:-----:|:----:|:----:|:----:|:----:|:----:|:----:|
-| 0 | 10 | 6 | 117 | 7 | 87 | 0 |
-| 0% | 4% | 3% | 52% | 3% | 38% | 0% |
+| 0 | 9 | 6 | 117 | 7 | 88 | 0 |
+| 0% | 4% | 3% | 52% | 3% | 39% | 0% |
 
 **Note:** The following loglevels were omitted in this report:
 * **SKIP**
