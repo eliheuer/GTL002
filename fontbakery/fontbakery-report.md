@@ -2,7 +2,7 @@
 
 Fontbakery version: 0.8.10
 
-<details><summary><b>[14] GTL002-Regular.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking OS/2 fsType does not impose restrictions. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/fstype">com.google.fonts/check/fstype</a>)</summary><div>
+<details><summary><b>[15] GTL002-Regular.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking OS/2 fsType does not impose restrictions. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/fstype">com.google.fonts/check/fstype</a>)</summary><div>
 
 
 * 🔥 **FAIL** In this font fsType is set to 8 meaning that:
@@ -15,75 +15,6 @@ No such DRM restrictions can be enabled on the Google Fonts collection, so the f
 * 🔥 **FAIL** Missing required codepoints:
 
 	- 0x00A0 (NO-BREAK SPACE)
-
-
-	- 0x003A (COLON)
-
-
-	- 0x2026 (HORIZONTAL ELLIPSIS)
-
-
-	- 0x0021 (EXCLAMATION MARK)
-
-
-	- 0x002A (ASTERISK)
-
-
-	- 0x0023 (NUMBER SIGN)
-
-
-	- 0x002F (SOLIDUS)
-
-
-	- 0x005C (REVERSE SOLIDUS)
-
-
-	- 0x002D (HYPHEN-MINUS)
-
-
-	- 0x0028 (LEFT PARENTHESIS)
-
-
-	- 0x0029 (RIGHT PARENTHESIS)
-
-
-	- 0x007B (LEFT CURLY BRACKET)
-
-
-	- 0x007D (RIGHT CURLY BRACKET)
-
-
-	- 0x005B (LEFT SQUARE BRACKET)
-
-
-	- 0x005D (RIGHT SQUARE BRACKET)
-
-
-	- 0x201C (LEFT DOUBLE QUOTATION MARK)
-
-
-	- 0x201D (RIGHT DOUBLE QUOTATION MARK)
-
-
-	- 0x2018 (LEFT SINGLE QUOTATION MARK)
-
-
-	- 0x2019 (RIGHT SINGLE QUOTATION MARK)
-
-
-	- 0x00AB (LEFT-POINTING DOUBLE ANGLE QUOTATION MARK)
-
-
-	- 0x00BB (RIGHT-POINTING DOUBLE ANGLE QUOTATION MARK)
-
-
-	- 0x0022 (QUOTATION MARK)
-
-
-	- 0x0027 (APOSTROPHE)
-
-
-	- 0x007C (VERTICAL LINE)
 
 
 	- 0x002B (PLUS SIGN)
@@ -629,57 +560,6 @@ No such DRM restrictions can be enabled on the Google Fonts collection, so the f
 	- 0x00BA (MASCULINE ORDINAL INDICATOR)
 
 
-	- 0x002C (COMMA)
-
-
-	- 0x003B (SEMICOLON)
-
-
-	- 0x00A1 (INVERTED EXCLAMATION MARK)
-
-
-	- 0x003F (QUESTION MARK)
-
-
-	- 0x00BF (INVERTED QUESTION MARK)
-
-
-	- 0x00B7 (MIDDLE DOT)
-
-
-	- 0x2022 (BULLET)
-
-
-	- 0x2013 (EN DASH)
-
-
-	- 0x2014 (EM DASH)
-
-
-	- 0x005F (LOW LINE)
-
-
-	- 0x201A (SINGLE LOW-9 QUOTATION MARK)
-
-
-	- 0x201E (DOUBLE LOW-9 QUOTATION MARK)
-
-
-	- 0x2039 (SINGLE LEFT-POINTING ANGLE QUOTATION MARK)
-
-
-	- 0x203A (SINGLE RIGHT-POINTING ANGLE QUOTATION MARK)
-
-
-	- 0x0040 (COMMERCIAL AT)
-
-
-	- 0x0026 (AMPERSAND)
-
-
-	- 0x00B6 (PILCROW SIGN)
-
-
 	- 0x00A7 (SECTION SIGN)
 
 
@@ -801,6 +681,11 @@ No such DRM restrictions can be enabled on the Google Fonts collection, so the f
 
 
 * 🔥 **FAIL** Whitespace glyph missing for codepoint 0x00A0. [code: missing-whitespace-glyph-0x00A0]
+</div></details><details><summary>🔥 <b>FAIL:</b> Check glyphs do not have duplicate components which have the same x,y coordinates. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/glyf.html#com.google.fonts/check/glyf_non_transformed_duplicate_components">com.google.fonts/check/glyf_non_transformed_duplicate_components</a>)</summary><div>
+
+
+* 🔥 **FAIL** The following glyphs have duplicate components which have the same x,y coordinates:
+	* {'glyph': 'ellipsis', 'component': 'period', 'x': 0, 'y': 0} and {'glyph': 'ellipsis', 'component': 'period', 'x': 0, 'y': 0} [code: found-duplicates]
 </div></details><details><summary>⚠ <b>WARN:</b> Ensure fonts have ScriptLangTags declared on the 'meta' table. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/meta/script_lang_tags">com.google.fonts/check/meta/script_lang_tags</a>)</summary><div>
 
 
@@ -812,7 +697,33 @@ No such DRM restrictions can be enabled on the Google Fonts collection, so the f
 
 The following glyphs do not have the recommended number of contours:
 
-	- Glyph name: eight	Contours detected: 2	Expected: 3
+	- Glyph name: quotedbl	Contours detected: 0	Expected: 2
+
+	- Glyph name: numbersign	Contours detected: 0	Expected: 2
+
+	- Glyph name: ampersand	Contours detected: 0	Expected: 1, 2 or 3
+
+	- Glyph name: quotesingle	Contours detected: 0	Expected: 1
+
+	- Glyph name: parenleft	Contours detected: 0	Expected: 1
+
+	- Glyph name: parenright	Contours detected: 0	Expected: 1
+
+	- Glyph name: asterisk	Contours detected: 0	Expected: 1 or 4
+
+	- Glyph name: slash	Contours detected: 0	Expected: 1
+
+	- Glyph name: question	Contours detected: 0	Expected: 2
+
+	- Glyph name: at	Contours detected: 0	Expected: 2
+
+	- Glyph name: bracketleft	Contours detected: 0	Expected: 1
+
+	- Glyph name: backslash	Contours detected: 0	Expected: 1
+
+	- Glyph name: bracketright	Contours detected: 0	Expected: 1
+
+	- Glyph name: underscore	Contours detected: 0	Expected: 1
 
 	- Glyph name: b	Contours detected: 3	Expected: 2
 
@@ -826,19 +737,121 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: r	Contours detected: 2	Expected: 1
 
+	- Glyph name: braceleft	Contours detected: 0	Expected: 1
+
+	- Glyph name: bar	Contours detected: 0	Expected: 1
+
+	- Glyph name: braceright	Contours detected: 0	Expected: 1
+
+	- Glyph name: exclamdown	Contours detected: 0	Expected: 2
+
+	- Glyph name: brokenbar	Contours detected: 0	Expected: 2
+
+	- Glyph name: guillemotleft	Contours detected: 0	Expected: 2
+
+	- Glyph name: paragraph	Contours detected: 0	Expected: 1, 2 or 3
+
+	- Glyph name: periodcentered	Contours detected: 0	Expected: 1
+
+	- Glyph name: guillemotright	Contours detected: 0	Expected: 2
+
+	- Glyph name: questiondown	Contours detected: 0	Expected: 2
+
+	- Glyph name: endash	Contours detected: 0	Expected: 1
+
+	- Glyph name: emdash	Contours detected: 0	Expected: 1
+
+	- Glyph name: quoteleft	Contours detected: 0	Expected: 1
+
+	- Glyph name: quoteright	Contours detected: 0	Expected: 1
+
+	- Glyph name: quotesinglbase	Contours detected: 0	Expected: 1
+
+	- Glyph name: quotedblbase	Contours detected: 0	Expected: 2
+
+	- Glyph name: ellipsis	Contours detected: 5	Expected: 3
+
+	- Glyph name: guilsinglleft	Contours detected: 0	Expected: 1
+
+	- Glyph name: guilsinglright	Contours detected: 0	Expected: 1
+
+	- Glyph name: ampersand	Contours detected: 0	Expected: 1, 2 or 3
+
+	- Glyph name: asterisk	Contours detected: 0	Expected: 1 or 4
+
+	- Glyph name: at	Contours detected: 0	Expected: 2
+
 	- Glyph name: b	Contours detected: 3	Expected: 2
+
+	- Glyph name: backslash	Contours detected: 0	Expected: 1
+
+	- Glyph name: bar	Contours detected: 0	Expected: 1
+
+	- Glyph name: braceleft	Contours detected: 0	Expected: 1
+
+	- Glyph name: braceright	Contours detected: 0	Expected: 1
+
+	- Glyph name: bracketleft	Contours detected: 0	Expected: 1
+
+	- Glyph name: bracketright	Contours detected: 0	Expected: 1
+
+	- Glyph name: brokenbar	Contours detected: 0	Expected: 2
 
 	- Glyph name: e	Contours detected: 1	Expected: 2
 
-	- Glyph name: eight	Contours detected: 2	Expected: 3
+	- Glyph name: ellipsis	Contours detected: 5	Expected: 3
+
+	- Glyph name: emdash	Contours detected: 0	Expected: 1
+
+	- Glyph name: endash	Contours detected: 0	Expected: 1
+
+	- Glyph name: exclamdown	Contours detected: 0	Expected: 2
 
 	- Glyph name: g	Contours detected: 1	Expected: 2 or 3
 
+	- Glyph name: guillemotleft	Contours detected: 0	Expected: 2
+
+	- Glyph name: guillemotright	Contours detected: 0	Expected: 2
+
+	- Glyph name: guilsinglleft	Contours detected: 0	Expected: 1
+
+	- Glyph name: guilsinglright	Contours detected: 0	Expected: 1
+
 	- Glyph name: i	Contours detected: 1	Expected: 2
 
-	- Glyph name: j	Contours detected: 1	Expected: 2 
+	- Glyph name: j	Contours detected: 1	Expected: 2
 
-	- And Glyph name: r	Contours detected: 2	Expected: 1
+	- Glyph name: numbersign	Contours detected: 0	Expected: 2
+
+	- Glyph name: paragraph	Contours detected: 0	Expected: 1, 2 or 3
+
+	- Glyph name: parenleft	Contours detected: 0	Expected: 1
+
+	- Glyph name: parenright	Contours detected: 0	Expected: 1
+
+	- Glyph name: periodcentered	Contours detected: 0	Expected: 1
+
+	- Glyph name: question	Contours detected: 0	Expected: 2
+
+	- Glyph name: questiondown	Contours detected: 0	Expected: 2
+
+	- Glyph name: quotedbl	Contours detected: 0	Expected: 2
+
+	- Glyph name: quotedblbase	Contours detected: 0	Expected: 2
+
+	- Glyph name: quoteleft	Contours detected: 0	Expected: 1
+
+	- Glyph name: quoteright	Contours detected: 0	Expected: 1
+
+	- Glyph name: quotesinglbase	Contours detected: 0	Expected: 1
+
+	- Glyph name: quotesingle	Contours detected: 0	Expected: 1
+
+	- Glyph name: r	Contours detected: 2	Expected: 1
+
+	- Glyph name: slash	Contours detected: 0	Expected: 1 
+
+	- And Glyph name: underscore	Contours detected: 0	Expected: 1
  [code: contour-count]
 </div></details><details><summary>⚠ <b>WARN:</b> Checking Vertical Metric Linegaps. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/hhea.html#com.google.fonts/check/linegaps">com.google.fonts/check/linegaps</a>)</summary><div>
 
@@ -884,6 +897,20 @@ The following glyphs do not have the recommended number of contours:
 
 
 * ⚠ **WARN** The following glyphs have segments which seem very short:
+
+	* three (U+0033) contains a short segment B<<381.0,359.0>-<381.0,355.0>-<384.0,353.0>>
+
+	* three (U+0033) contains a short segment B<<384.0,353.0>-<387.0,351.0>-<397.0,344.0>>
+
+	* six (U+0036) contains a short segment B<<190.0,423.0>-<190.0,417.0>-<197.0,417.0>>
+
+	* eight (U+0038) contains a short segment B<<65.0,357.0>-<70.0,362.0>-<70.0,366.0>>
+
+	* eight (U+0038) contains a short segment B<<395.0,376.0>-<390.0,371.0>-<390.0,366.0>>
+
+	* eight (U+0038) contains a short segment B<<390.0,366.0>-<390.0,362.0>-<394.0,358.0>>
+
+	* nine (U+0039) contains a short segment B<<280.0,277.0>-<280.0,283.0>-<273.0,283.0>>
 
 	* K (U+004B) contains a short segment B<<200.0,460.0>-<200.0,450.0>-<210.0,450.0>>
 
@@ -1013,7 +1040,7 @@ The following glyphs do not have the recommended number of contours:
 
 | 💔 ERROR | 🔥 FAIL | ⚠ WARN | 💤 SKIP | ℹ INFO | 🍞 PASS | 🔎 DEBUG |
 |:-----:|:----:|:----:|:----:|:----:|:----:|:----:|
-| 0 | 9 | 5 | 117 | 7 | 89 | 0 |
+| 0 | 10 | 5 | 117 | 7 | 88 | 0 |
 | 0% | 4% | 2% | 52% | 3% | 39% | 0% |
 
 **Note:** The following loglevels were omitted in this report:
