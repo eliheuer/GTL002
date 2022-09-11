@@ -872,8 +872,6 @@ The following glyphs do not have the recommended number of contours:
 
 	* K (U+004B): X=60.0,Y=-1.0 (should be at baseline 0?)
 
-	* Y (U+0059): X=190.0,Y=-1.0 (should be at baseline 0?)
-
 	* g (U+0067): X=151.0,Y=0.5 (should be at baseline 0?)
 
 	* g (U+0067): X=159.0,Y=699.5 (should be at cap-height 700?)
@@ -885,8 +883,6 @@ The following glyphs do not have the recommended number of contours:
 	* k (U+006B): X=60.0,Y=-1.0 (should be at baseline 0?)
 
 	* t (U+0074): X=305.0,Y=529.0 (should be at x-height 530?)
-
-	* y (U+0079): X=190.0,Y=-1.0 (should be at baseline 0?)
 
 	* z (U+007A): X=214.0,Y=532.0 (should be at x-height 530?)
 
@@ -964,13 +960,9 @@ The following glyphs do not have the recommended number of contours:
 
 	* X (U+0058) contains a short segment B<<377.5,395.0>-<374.0,388.0>-<374.0,380.0>>
 
-	* Y (U+0059) contains a short segment B<<222.0,481.0>-<224.0,477.0>-<227.5,472.0>>
+	* Y (U+0059) contains a short segment B<<215.0,520.0>-<217.0,513.0>-<220.0,508.0>>
 
-	* Y (U+0059) contains a short segment B<<227.5,472.0>-<231.0,467.0>-<236.0,467.0>>
-
-	* Y (U+0059) contains a short segment B<<236.0,467.0>-<240.0,467.0>-<242.5,472.0>>
-
-	* Y (U+0059) contains a short segment B<<242.5,472.0>-<245.0,477.0>-<246.0,482.0>>
+	* Y (U+0059) contains a short segment B<<220.0,508.0>-<223.0,503.0>-<230.0,503.0>>
 
 	* Z (U+005A) contains a short segment B<<216.0,175.0>-<216.0,168.0>-<221.0,163.0>>
 
@@ -1028,13 +1020,9 @@ The following glyphs do not have the recommended number of contours:
 
 	* x (U+0078) contains a short segment B<<377.5,395.0>-<374.0,388.0>-<374.0,380.0>>
 
-	* y (U+0079) contains a short segment B<<222.0,481.0>-<224.0,477.0>-<227.5,472.0>>
+	* y (U+0079) contains a short segment B<<215.0,520.0>-<217.0,513.0>-<220.0,508.0>>
 
-	* y (U+0079) contains a short segment B<<227.5,472.0>-<231.0,467.0>-<236.0,467.0>>
-
-	* y (U+0079) contains a short segment B<<236.0,467.0>-<240.0,467.0>-<242.5,472.0>>
-
-	* y (U+0079) contains a short segment B<<242.5,472.0>-<245.0,477.0>-<246.0,482.0>>
+	* y (U+0079) contains a short segment B<<220.0,508.0>-<223.0,503.0>-<230.0,503.0>>
 
 	* z (U+007A) contains a short segment B<<216.0,175.0>-<216.0,168.0>-<221.0,163.0>> 
 
