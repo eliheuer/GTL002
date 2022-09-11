@@ -862,8 +862,6 @@ The following glyphs do not have the recommended number of contours:
 
 * ⚠ **WARN** The following glyphs have on-curve points which have potentially incorrect y coordinates:
 
-	* G (U+0047): X=151.0,Y=0.5 (should be at baseline 0?)
-
 	* G (U+0047): X=159.0,Y=699.5 (should be at cap-height 700?)
 
 	* G (U+0047): X=311.5,Y=699.5 (should be at cap-height 700?)
@@ -872,7 +870,9 @@ The following glyphs do not have the recommended number of contours:
 
 	* K (U+004B): X=60.0,Y=-1.0 (should be at baseline 0?)
 
-	* g (U+0067): X=151.0,Y=0.5 (should be at baseline 0?)
+	* W (U+0057): X=366.0,Y=698.0 (should be at cap-height 700?)
+
+	* W (U+0057): X=534.0,Y=698.0 (should be at cap-height 700?)
 
 	* g (U+0067): X=159.0,Y=699.5 (should be at cap-height 700?)
 
@@ -883,6 +883,10 @@ The following glyphs do not have the recommended number of contours:
 	* k (U+006B): X=60.0,Y=-1.0 (should be at baseline 0?)
 
 	* t (U+0074): X=305.0,Y=529.0 (should be at x-height 530?)
+
+	* w (U+0077): X=366.0,Y=698.0 (should be at cap-height 700?)
+
+	* w (U+0077): X=534.0,Y=698.0 (should be at cap-height 700?)
 
 	* z (U+007A): X=214.0,Y=532.0 (should be at x-height 530?)
 
@@ -920,21 +924,27 @@ The following glyphs do not have the recommended number of contours:
 
 	* K (U+004B) contains a short segment B<<210.0,300.0>-<200.0,300.0>-<200.0,290.0>>
 
-	* M (U+004D) contains a short segment B<<299.5,508.0>-<304.0,500.0>-<310.0,500.0>>
+	* M (U+004D) contains a short segment B<<370.0,320.0>-<377.0,320.0>-<382.5,326.5>>
 
-	* M (U+004D) contains a short segment B<<310.0,500.0>-<317.0,500.0>-<321.5,507.0>>
+	* M (U+004D) contains a short segment B<<540.0,300.0>-<540.0,311.0>-<535.5,315.5>>
 
-	* M (U+004D) contains a short segment B<<410.0,390.0>-<404.0,390.0>-<400.0,382.5>>
+	* M (U+004D) contains a short segment B<<535.5,315.5>-<531.0,320.0>-<526.0,320.0>>
 
-	* M (U+004D) contains a short segment B<<327.5,267.5>-<320.0,260.0>-<310.0,260.0>>
+	* M (U+004D) contains a short segment B<<526.0,320.0>-<520.0,320.0>-<514.5,312.0>>
 
-	* M (U+004D) contains a short segment B<<310.0,260.0>-<300.0,260.0>-<292.5,268.0>>
+	* M (U+004D) contains a short segment B<<407.5,45.0>-<398.0,40.0>-<390.0,40.0>>
 
-	* M (U+004D) contains a short segment B<<220.5,382.5>-<217.0,390.0>-<210.0,390.0>>
+	* M (U+004D) contains a short segment B<<350.0,40.0>-<343.0,40.0>-<335.5,45.5>>
 
-	* N (U+004E) contains a short segment B<<213.0,296.0>-<208.0,296.0>-<204.0,292.0>>
+	* M (U+004D) contains a short segment B<<225.5,312.5>-<221.0,320.0>-<214.0,320.0>>
 
-	* N (U+004E) contains a short segment B<<204.0,292.0>-<200.0,288.0>-<200.0,276.0>>
+	* N (U+004E) contains a short segment B<<343.0,316.0>-<345.0,310.0>-<348.0,305.0>>
+
+	* N (U+004E) contains a short segment B<<348.0,305.0>-<351.0,300.0>-<357.0,300.0>>
+
+	* N (U+004E) contains a short segment B<<203.0,400.0>-<198.0,400.0>-<194.0,396.0>>
+
+	* N (U+004E) contains a short segment B<<194.0,396.0>-<190.0,392.0>-<190.0,380.0>>
 
 	* R (U+0052) contains a short segment B<<397.0,329.5>-<391.0,325.0>-<391.0,320.0>>
 
@@ -942,37 +952,43 @@ The following glyphs do not have the recommended number of contours:
 
 	* R (U+0052) contains a short segment B<<467.5,40.0>-<470.0,35.0>-<470.0,26.0>>
 
-	* W (U+0057) contains a short segment B<<175.0,0.0>-<160.0,0.0>-<150.0,9.0>>
+	* W (U+0057) contains a short segment B<<165.0,0.0>-<150.0,0.0>-<140.0,9.0>>
 
-	* W (U+0057) contains a short segment B<<11.5,651.0>-<10.0,663.0>-<10.0,670.0>>
+	* W (U+0057) contains a short segment B<<12.0,651.0>-<10.0,663.0>-<10.0,670.0>>
 
-	* W (U+0057) contains a short segment B<<255.0,190.0>-<258.0,170.0>-<270.0,170.0>>
+	* W (U+0057) contains a short segment B<<265.0,280.0>-<268.0,260.0>-<280.0,260.0>>
 
-	* W (U+0057) contains a short segment B<<270.0,170.0>-<282.0,170.0>-<285.0,190.0>>
+	* W (U+0057) contains a short segment B<<280.0,260.0>-<292.0,260.0>-<295.0,280.0>>
 
-	* W (U+0057) contains a short segment B<<331.0,521.0>-<331.0,529.0>-<330.0,536.0>>
+	* W (U+0057) contains a short segment B<<345.0,660.0>-<347.0,677.0>-<351.5,685.5>>
 
-	* W (U+0057) contains a short segment B<<330.0,536.0>-<329.0,543.0>-<327.0,551.0>>
+	* W (U+0057) contains a short segment B<<351.5,685.5>-<356.0,694.0>-<366.0,698.0>>
 
-	* W (U+0057) contains a short segment B<<314.0,635.0>-<313.0,643.0>-<311.5,651.0>>
+	* W (U+0057) contains a short segment B<<366.0,698.0>-<374.0,700.0>-<380.0,700.0>>
 
-	* W (U+0057) contains a short segment B<<311.5,651.0>-<310.0,659.0>-<310.0,670.0>>
+	* W (U+0057) contains a short segment B<<520.0,700.0>-<526.0,700.0>-<534.0,698.0>>
 
-	* W (U+0057) contains a short segment B<<555.0,190.0>-<558.0,170.0>-<570.0,170.0>>
+	* W (U+0057) contains a short segment B<<534.0,698.0>-<545.0,694.0>-<549.0,685.5>>
 
-	* W (U+0057) contains a short segment B<<570.0,170.0>-<582.0,170.0>-<585.0,190.0>>
+	* W (U+0057) contains a short segment B<<549.0,685.5>-<553.0,677.0>-<555.0,660.0>>
 
-	* W (U+0057) contains a short segment B<<830.0,670.0>-<830.0,663.0>-<828.5,651.0>>
+	* W (U+0057) contains a short segment B<<605.0,280.0>-<608.0,260.0>-<620.0,260.0>>
 
-	* W (U+0057) contains a short segment B<<487.0,0.0>-<472.0,0.0>-<462.0,8.5>>
+	* W (U+0057) contains a short segment B<<620.0,260.0>-<632.0,260.0>-<635.0,280.0>>
 
-	* W (U+0057) contains a short segment B<<422.0,162.0>-<421.0,170.0>-<418.0,176.0>>
+	* W (U+0057) contains a short segment B<<890.0,670.0>-<890.0,663.0>-<888.5,651.0>>
 
-	* W (U+0057) contains a short segment B<<418.0,176.0>-<415.0,182.0>-<407.0,182.0>>
+	* W (U+0057) contains a short segment B<<763.0,9.0>-<755.0,0.0>-<735.0,0.0>>
 
-	* W (U+0057) contains a short segment B<<407.0,182.0>-<400.0,182.0>-<397.0,176.0>>
+	* W (U+0057) contains a short segment B<<555.0,0.0>-<540.0,0.0>-<529.0,9.0>>
 
-	* W (U+0057) contains a short segment B<<397.0,176.0>-<394.0,170.0>-<392.0,162.0>>
+	* W (U+0057) contains a short segment B<<465.0,440.0>-<464.0,447.0>-<461.0,453.5>>
+
+	* W (U+0057) contains a short segment B<<461.0,453.5>-<458.0,460.0>-<450.0,460.0>>
+
+	* W (U+0057) contains a short segment B<<450.0,460.0>-<443.0,460.0>-<439.5,453.5>>
+
+	* W (U+0057) contains a short segment B<<439.5,453.5>-<436.0,447.0>-<435.0,440.0>>
 
 	* X (U+0058) contains a short segment B<<248.0,555.0>-<251.0,550.0>-<256.0,550.0>>
 
@@ -990,21 +1006,27 @@ The following glyphs do not have the recommended number of contours:
 
 	* k (U+006B) contains a short segment B<<210.0,300.0>-<200.0,300.0>-<200.0,290.0>>
 
-	* m (U+006D) contains a short segment B<<299.5,508.0>-<304.0,500.0>-<310.0,500.0>>
+	* m (U+006D) contains a short segment B<<370.0,320.0>-<377.0,320.0>-<382.5,326.5>>
 
-	* m (U+006D) contains a short segment B<<310.0,500.0>-<317.0,500.0>-<321.5,507.0>>
+	* m (U+006D) contains a short segment B<<540.0,300.0>-<540.0,311.0>-<535.5,315.5>>
 
-	* m (U+006D) contains a short segment B<<410.0,390.0>-<404.0,390.0>-<400.0,382.5>>
+	* m (U+006D) contains a short segment B<<535.5,315.5>-<531.0,320.0>-<526.0,320.0>>
 
-	* m (U+006D) contains a short segment B<<327.5,267.5>-<320.0,260.0>-<310.0,260.0>>
+	* m (U+006D) contains a short segment B<<526.0,320.0>-<520.0,320.0>-<514.5,312.0>>
 
-	* m (U+006D) contains a short segment B<<310.0,260.0>-<300.0,260.0>-<292.5,268.0>>
+	* m (U+006D) contains a short segment B<<407.5,45.0>-<398.0,40.0>-<390.0,40.0>>
 
-	* m (U+006D) contains a short segment B<<220.5,382.5>-<217.0,390.0>-<210.0,390.0>>
+	* m (U+006D) contains a short segment B<<350.0,40.0>-<343.0,40.0>-<335.5,45.5>>
 
-	* n (U+006E) contains a short segment B<<213.0,296.0>-<208.0,296.0>-<204.0,292.0>>
+	* m (U+006D) contains a short segment B<<225.5,312.5>-<221.0,320.0>-<214.0,320.0>>
 
-	* n (U+006E) contains a short segment B<<204.0,292.0>-<200.0,288.0>-<200.0,276.0>>
+	* n (U+006E) contains a short segment B<<343.0,316.0>-<345.0,310.0>-<348.0,305.0>>
+
+	* n (U+006E) contains a short segment B<<348.0,305.0>-<351.0,300.0>-<357.0,300.0>>
+
+	* n (U+006E) contains a short segment B<<203.0,400.0>-<198.0,400.0>-<194.0,396.0>>
+
+	* n (U+006E) contains a short segment B<<194.0,396.0>-<190.0,392.0>-<190.0,380.0>>
 
 	* r (U+0072) contains a short segment B<<397.0,329.5>-<391.0,325.0>-<391.0,320.0>>
 
@@ -1012,37 +1034,43 @@ The following glyphs do not have the recommended number of contours:
 
 	* r (U+0072) contains a short segment B<<467.5,40.0>-<470.0,35.0>-<470.0,26.0>>
 
-	* w (U+0077) contains a short segment B<<175.0,0.0>-<160.0,0.0>-<150.0,9.0>>
+	* w (U+0077) contains a short segment B<<165.0,0.0>-<150.0,0.0>-<140.0,9.0>>
 
-	* w (U+0077) contains a short segment B<<11.5,651.0>-<10.0,663.0>-<10.0,670.0>>
+	* w (U+0077) contains a short segment B<<12.0,651.0>-<10.0,663.0>-<10.0,670.0>>
 
-	* w (U+0077) contains a short segment B<<255.0,190.0>-<258.0,170.0>-<270.0,170.0>>
+	* w (U+0077) contains a short segment B<<265.0,280.0>-<268.0,260.0>-<280.0,260.0>>
 
-	* w (U+0077) contains a short segment B<<270.0,170.0>-<282.0,170.0>-<285.0,190.0>>
+	* w (U+0077) contains a short segment B<<280.0,260.0>-<292.0,260.0>-<295.0,280.0>>
 
-	* w (U+0077) contains a short segment B<<331.0,521.0>-<331.0,529.0>-<330.0,536.0>>
+	* w (U+0077) contains a short segment B<<345.0,660.0>-<347.0,677.0>-<351.5,685.5>>
 
-	* w (U+0077) contains a short segment B<<330.0,536.0>-<329.0,543.0>-<327.0,551.0>>
+	* w (U+0077) contains a short segment B<<351.5,685.5>-<356.0,694.0>-<366.0,698.0>>
 
-	* w (U+0077) contains a short segment B<<314.0,635.0>-<313.0,643.0>-<311.5,651.0>>
+	* w (U+0077) contains a short segment B<<366.0,698.0>-<374.0,700.0>-<380.0,700.0>>
 
-	* w (U+0077) contains a short segment B<<311.5,651.0>-<310.0,659.0>-<310.0,670.0>>
+	* w (U+0077) contains a short segment B<<520.0,700.0>-<526.0,700.0>-<534.0,698.0>>
 
-	* w (U+0077) contains a short segment B<<555.0,190.0>-<558.0,170.0>-<570.0,170.0>>
+	* w (U+0077) contains a short segment B<<534.0,698.0>-<545.0,694.0>-<549.0,685.5>>
 
-	* w (U+0077) contains a short segment B<<570.0,170.0>-<582.0,170.0>-<585.0,190.0>>
+	* w (U+0077) contains a short segment B<<549.0,685.5>-<553.0,677.0>-<555.0,660.0>>
 
-	* w (U+0077) contains a short segment B<<830.0,670.0>-<830.0,663.0>-<828.5,651.0>>
+	* w (U+0077) contains a short segment B<<605.0,280.0>-<608.0,260.0>-<620.0,260.0>>
 
-	* w (U+0077) contains a short segment B<<487.0,0.0>-<472.0,0.0>-<462.0,8.5>>
+	* w (U+0077) contains a short segment B<<620.0,260.0>-<632.0,260.0>-<635.0,280.0>>
 
-	* w (U+0077) contains a short segment B<<422.0,162.0>-<421.0,170.0>-<418.0,176.0>>
+	* w (U+0077) contains a short segment B<<890.0,670.0>-<890.0,663.0>-<888.5,651.0>>
 
-	* w (U+0077) contains a short segment B<<418.0,176.0>-<415.0,182.0>-<407.0,182.0>>
+	* w (U+0077) contains a short segment B<<763.0,9.0>-<755.0,0.0>-<735.0,0.0>>
 
-	* w (U+0077) contains a short segment B<<407.0,182.0>-<400.0,182.0>-<397.0,176.0>>
+	* w (U+0077) contains a short segment B<<555.0,0.0>-<540.0,0.0>-<529.0,9.0>>
 
-	* w (U+0077) contains a short segment B<<397.0,176.0>-<394.0,170.0>-<392.0,162.0>>
+	* w (U+0077) contains a short segment B<<465.0,440.0>-<464.0,447.0>-<461.0,453.5>>
+
+	* w (U+0077) contains a short segment B<<461.0,453.5>-<458.0,460.0>-<450.0,460.0>>
+
+	* w (U+0077) contains a short segment B<<450.0,460.0>-<443.0,460.0>-<439.5,453.5>>
+
+	* w (U+0077) contains a short segment B<<439.5,453.5>-<436.0,447.0>-<435.0,440.0>>
 
 	* x (U+0078) contains a short segment B<<248.0,555.0>-<251.0,550.0>-<256.0,550.0>>
 
