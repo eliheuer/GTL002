@@ -884,7 +884,7 @@ The following glyphs do not have the recommended number of contours:
 
 	* k (U+006B): X=60.0,Y=-1.0 (should be at baseline 0?)
 
-	* t (U+0074): X=310.0,Y=529.0 (should be at x-height 530?)
+	* t (U+0074): X=305.0,Y=529.0 (should be at x-height 530?)
 
 	* y (U+0079): X=190.0,Y=-1.0 (should be at baseline 0?)
 
@@ -933,6 +933,8 @@ The following glyphs do not have the recommended number of contours:
 	* N (U+004E) contains a short segment B<<213.0,306.0>-<208.0,306.0>-<204.0,302.0>>
 
 	* N (U+004E) contains a short segment B<<204.0,302.0>-<200.0,298.0>-<200.0,286.0>>
+
+	* R (U+0052) contains a short segment B<<397.0,330.0>-<391.0,325.0>-<391.0,320.0>>
 
 	* W (U+0057) contains a short segment B<<135.0,0.0>-<120.0,0.0>-<109.0,9.0>>
 
@@ -995,6 +997,8 @@ The following glyphs do not have the recommended number of contours:
 	* n (U+006E) contains a short segment B<<213.0,306.0>-<208.0,306.0>-<204.0,302.0>>
 
 	* n (U+006E) contains a short segment B<<204.0,302.0>-<200.0,298.0>-<200.0,286.0>>
+
+	* r (U+0072) contains a short segment B<<397.0,330.0>-<391.0,325.0>-<391.0,320.0>>
 
 	* w (U+0077) contains a short segment B<<135.0,0.0>-<120.0,0.0>-<109.0,9.0>>
 
