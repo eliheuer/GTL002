@@ -153,8 +153,8 @@ def draw_auxiliary_text():
 if __name__ == "__main__":
     draw_background()
     draw_main_text()
-    draw_divider_lines()
-    draw_auxiliary_text()
+#    draw_divider_lines()
+#    draw_auxiliary_text()
     # Save output, using the "--output" flag location
     saveImage(args.output)
     print("DrawBot: Done")
