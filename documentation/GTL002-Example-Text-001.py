@@ -29,12 +29,25 @@ FONT_PATH = "documentation/specimen_fonts/GTL002-Regular.ttf"
 FONT_LICENSE = "OFLv1.1"
 AUXILIARY_FONT = "documentation/specimen_fonts/Hasubi-Mono[wght].ttf"
 AUXILIARY_FONT_SIZE = 48
-BIG_TEXT_A = "ABCDEFGHIJKL"
-BIG_TEXT_B = "MNOPQRSTUV"
-BIG_TEXT_C = "WXYZ .,;:!-“”"
-BIG_TEXT_D = "1234567890"
-BIG_TEXT_E = "ÁÂÄÀÅÃ"
-BIG_TEXT_FONT_SIZE = 256+48
+BIG_TEXT_A = "YOUR DESIRE TO RECEIVE"
+BIG_TEXT_B = "“CREDIT” FOR YOUR"
+BIG_TEXT_C = "ARTISTIC OUTPUT IS"
+BIG_TEXT_D = "DUE TO THE FAULTY"
+BIG_TEXT_E = "ASSUMPTIONS THAT "
+BIG_TEXT_F = "A."
+BIG_TEXT_F2 = "“YOU” “CREATED”"
+BIG_TEXT_G = "“SOMETHING” "
+BIG_TEXT_H = "B."
+BIG_TEXT_H2 = "THAT THE SO-CALLED"
+BIG_TEXT_I = "CREDIT IS REDEEMABLE "
+BIG_TEXT_J = "FOR ANYTHING THAT "
+BIG_TEXT_K = "WILL ACTUALLY "
+BIG_TEXT_L = "MAKE YOU HAPPY."
+BIG_TEXT_M = ""
+BIG_TEXT_N = ""
+BIG_TEXT_O = ""
+BIG_TEXT_P = ""
+BIG_TEXT_FONT_SIZE = 128+32
 BIG_TEXT_SIDE_MARGIN = MARGIN * 1
 BIG_TEXT_BOTTOM_MARGIN = MARGIN * 5.9
 GRID_VIEW = False # Change this to "True" for a grid overlay
@@ -63,7 +76,7 @@ ENS_NAME = "elih.eth"
 # Draws a grid
 def grid():
     stroke(1, 0, 0, 0.75)
-    strokeWidth(3)
+    strokeWidth(1)
     STEP_X, STEP_Y = 0, 0
     INCREMENT_X, INCREMENT_Y = MARGIN / 4, MARGIN / 4
     rect(MARGIN, MARGIN, WIDTH - (MARGIN * 2), HEIGHT - (MARGIN * 2))
@@ -109,52 +122,33 @@ def draw_main_text():
     # TODO: This should be done automatically when drawbot-skia
     # has support for textBox() and FormattedString
     #text(BIG_TEXT, ((WIDTH / 2) - MARGIN * 4.75, (HEIGHT / 2) - MARGIN * 2.5))
-    text(BIG_TEXT_A, (BIG_TEXT_SIDE_MARGIN-9, UNIT*23.0))
-    text(BIG_TEXT_B, (BIG_TEXT_SIDE_MARGIN-9,  UNIT*19.0))
-    text(BIG_TEXT_C, (BIG_TEXT_SIDE_MARGIN-9,  UNIT*15.0))
-    text(BIG_TEXT_D, (BIG_TEXT_SIDE_MARGIN-9,  UNIT*11.0))
-    text(BIG_TEXT_E, (BIG_TEXT_SIDE_MARGIN-9,  UNIT*6.5))
+    text(BIG_TEXT_A, (BIG_TEXT_SIDE_MARGIN-9, UNIT*26))
+    text(BIG_TEXT_B, (BIG_TEXT_SIDE_MARGIN-9, UNIT*24))
+    text(BIG_TEXT_C, (BIG_TEXT_SIDE_MARGIN-9, UNIT*22))
+    text(BIG_TEXT_D, (BIG_TEXT_SIDE_MARGIN-9, UNIT*20))
+    text(BIG_TEXT_E, (BIG_TEXT_SIDE_MARGIN-9, UNIT*18))
+    text(BIG_TEXT_F, (BIG_TEXT_SIDE_MARGIN-9, UNIT*16))
+    text(BIG_TEXT_F2, (BIG_TEXT_SIDE_MARGIN+100, UNIT*16))
+    text(BIG_TEXT_G, (BIG_TEXT_SIDE_MARGIN-9, UNIT*14))
+    text(BIG_TEXT_H, (BIG_TEXT_SIDE_MARGIN-9, UNIT*12))
+    text(BIG_TEXT_H2, (BIG_TEXT_SIDE_MARGIN+100, UNIT*12))
+    text(BIG_TEXT_I, (BIG_TEXT_SIDE_MARGIN-9, UNIT*10))
+    text(BIG_TEXT_J, (BIG_TEXT_SIDE_MARGIN-9, UNIT*8))
+    text(BIG_TEXT_K, (BIG_TEXT_SIDE_MARGIN-9, UNIT*6))
+    text(BIG_TEXT_L, (BIG_TEXT_SIDE_MARGIN-9, UNIT*4))
+    text(BIG_TEXT_M, (BIG_TEXT_SIDE_MARGIN-9, UNIT*2))
     #text(BIG_TEXT_D, (BIG_TEXT_SIDE_MARGIN, BIG_TEXT_BOTTOM_MARGIN - MARGIN*2.25))
     #text(BIG_TEXT_E, (BIG_TEXT_SIDE_MARGIN, BIG_TEXT_BOTTOM_MARGIN - MARGIN*3.00))
     #text(BIG_TEXT_F, (BIG_TEXT_SIDE_MARGIN, BIG_TEXT_BOTTOM_MARGIN - MARGIN*3.75))
     #text(BIG_TEXT_G, (BIG_TEXT_SIDE_MARGIN, BIG_TEXT_BOTTOM_MARGIN - MARGIN*4.50))
 
 
-# Divider lines/
-def draw_divider_lines():
-    stroke(1)
-    strokeWidth(4)
-    lineCap("round")
-    line((MARGIN, HEIGHT - MARGIN * 1.25), (WIDTH - MARGIN, HEIGHT - MARGIN * 1.25))
-    line((MARGIN, MARGIN + (MARGIN / 4)), (WIDTH - MARGIN, MARGIN + (MARGIN / 4)))
-    stroke(None)
-
-
-# Draw text describing the font and it's git status & repo URL
-def draw_auxiliary_text():
-    # Setup
-    font(AUXILIARY_FONT)
-    fontSize(AUXILIARY_FONT_SIZE)
-    POS_TOP_LEFT = (MARGIN, HEIGHT - MARGIN * 1.15)
-    POS_TOP_RIGHT = (WIDTH - MARGIN, HEIGHT - MARGIN * 1.15)
-    POS_BOTTOM_LEFT = (MARGIN, MARGIN)
-    POS_BOTTOM_RIGHT = (WIDTH - MARGIN * 0.95, MARGIN)
-    URL_AND_HASH = MY_URL + "at commit " + MY_HASH
-    URL_AND_HASH = URL_AND_HASH.replace("\n", " ")
-    GTL_URL = "https://gtl.world"
-    # Draw Text
-    text(FONT_NAME, POS_TOP_LEFT, align="left")
-    text(GTL_URL, POS_TOP_RIGHT, align="right")
-    text(FONT_LICENSE, POS_BOTTOM_RIGHT, align="right")
-    text(URL_AND_HASH, POS_BOTTOM_LEFT, align="left")
-
-
 # Build and save the image
 if __name__ == "__main__":
     draw_background()
     draw_main_text()
-    draw_divider_lines()
-    draw_auxiliary_text()
+#    draw_divider_lines()
+#    draw_auxiliary_text()
     # Save output, using the "--output" flag location
     saveImage(args.output)
     print("DrawBot: Done")
