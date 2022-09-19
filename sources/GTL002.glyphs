@@ -2024,7 +2024,7 @@ unicode = 0051;
 {
 color = 5;
 glyphname = R;
-lastChange = "2022-09-19 01:43:51 +0000";
+lastChange = "2022-09-19 02:53:35 +0000";
 layers = (
 {
 layerId = m01;
@@ -2103,7 +2103,7 @@ nodes = (
 );
 }
 );
-width = 480;
+width = 484;
 },
 {
 associatedMasterId = m01;
@@ -4098,7 +4098,7 @@ unicode = 0071;
 {
 color = 4;
 glyphname = r;
-lastChange = "2022-09-18 20:09:32 +0000";
+lastChange = "2022-09-19 02:53:59 +0000";
 layers = (
 {
 components = (
@@ -4107,7 +4107,7 @@ name = R;
 }
 );
 layerId = m01;
-width = 480;
+width = 484;
 }
 );
 leftKerningGroup = H;
@@ -5092,11 +5092,11 @@ unicode = 0039;
 },
 {
 glyphname = space;
-lastChange = "2022-09-19 00:14:01 +0000";
+lastChange = "2022-09-19 02:53:22 +0000";
 layers = (
 {
 layerId = m01;
-width = 140;
+width = 120;
 }
 );
 unicode = 0020;
