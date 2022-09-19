@@ -956,10 +956,6 @@ The following glyphs do not have the recommended number of contours:
 
 	* X (U+0058) contains a short segment B<<248.0,555.0>-<251.0,550.0>-<256.0,550.0>>
 
-	* Y (U+0059) contains a short segment B<<230.0,530.0>-<232.0,523.0>-<235.0,518.0>>
-
-	* Y (U+0059) contains a short segment B<<235.0,518.0>-<238.0,513.0>-<245.0,513.0>>
-
 	* Z (U+005A) contains a short segment B<<216.0,175.0>-<216.0,168.0>-<221.0,163.0>>
 
 	* Z (U+005A) contains a short segment B<<221.0,163.0>-<226.0,158.0>-<234.0,158.0>>
@@ -1011,10 +1007,6 @@ The following glyphs do not have the recommended number of contours:
 	* w (U+0077) contains a short segment B<<340.0,258.0>-<333.0,258.0>-<330.0,240.0>>
 
 	* x (U+0078) contains a short segment B<<248.0,555.0>-<251.0,550.0>-<256.0,550.0>>
-
-	* y (U+0079) contains a short segment B<<230.0,530.0>-<232.0,523.0>-<235.0,518.0>>
-
-	* y (U+0079) contains a short segment B<<235.0,518.0>-<238.0,513.0>-<245.0,513.0>>
 
 	* z (U+007A) contains a short segment B<<216.0,175.0>-<216.0,168.0>-<221.0,163.0>> 
 
