@@ -930,7 +930,9 @@ The following glyphs do not have the recommended number of contours:
 
 	* N (U+004E) contains a short segment B<<194.0,386.0>-<190.0,382.0>-<190.0,370.0>>
 
-	* R (U+0052) contains a short segment B<<397.0,349.5>-<391.0,345.0>-<391.0,340.0>>
+	* R (U+0052) contains a short segment B<<394.0,347.0>-<391.0,344.0>-<391.0,340.0>>
+
+	* R (U+0052) contains a short segment B<<391.0,340.0>-<391.0,336.0>-<394.5,332.5>>
 
 	* R (U+0052) contains a short segment B<<462.5,53.5>-<465.0,45.0>-<467.5,40.0>>
 
@@ -953,6 +955,10 @@ The following glyphs do not have the recommended number of contours:
 	* W (U+0057) contains a short segment B<<340.0,258.0>-<333.0,258.0>-<330.0,240.0>>
 
 	* X (U+0058) contains a short segment B<<248.0,555.0>-<251.0,550.0>-<256.0,550.0>>
+
+	* Y (U+0059) contains a short segment B<<230.0,530.0>-<232.0,523.0>-<235.0,518.0>>
+
+	* Y (U+0059) contains a short segment B<<235.0,518.0>-<238.0,513.0>-<245.0,513.0>>
 
 	* Z (U+005A) contains a short segment B<<216.0,175.0>-<216.0,168.0>-<221.0,163.0>>
 
@@ -980,7 +986,9 @@ The following glyphs do not have the recommended number of contours:
 
 	* n (U+006E) contains a short segment B<<194.0,386.0>-<190.0,382.0>-<190.0,370.0>>
 
-	* r (U+0072) contains a short segment B<<397.0,349.5>-<391.0,345.0>-<391.0,340.0>>
+	* r (U+0072) contains a short segment B<<394.0,347.0>-<391.0,344.0>-<391.0,340.0>>
+
+	* r (U+0072) contains a short segment B<<391.0,340.0>-<391.0,336.0>-<394.5,332.5>>
 
 	* r (U+0072) contains a short segment B<<462.5,53.5>-<465.0,45.0>-<467.5,40.0>>
 
@@ -1003,6 +1011,10 @@ The following glyphs do not have the recommended number of contours:
 	* w (U+0077) contains a short segment B<<340.0,258.0>-<333.0,258.0>-<330.0,240.0>>
 
 	* x (U+0078) contains a short segment B<<248.0,555.0>-<251.0,550.0>-<256.0,550.0>>
+
+	* y (U+0079) contains a short segment B<<230.0,530.0>-<232.0,523.0>-<235.0,518.0>>
+
+	* y (U+0079) contains a short segment B<<235.0,518.0>-<238.0,513.0>-<245.0,513.0>>
 
 	* z (U+007A) contains a short segment B<<216.0,175.0>-<216.0,168.0>-<221.0,163.0>> 
 
